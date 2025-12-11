@@ -1,0 +1,258 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Yury Zakharov",
+    "label": "Senior Software Developer",
+    "picture": "",
+    "email": "colonelcolt@gmail.com",
+    "phone": "+44 7722850063",
+    "website": "",
+    "summary": "Versatile and very successful SOFTWARE DEVELOPER with a wealth of technical\nand commercial skills acquired across a wide range of demanding roles with over\n20 years experience within the IT arena including finance and insurance. Heavy emphasis on clean\narchitecture and code quality. Now seeking next challenging and rewarding opportunity to\ndemonstrate substantial abilities and make an effective contribution to a successful, end-user\nfocused team.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "London",
+      "countryCode": "GB",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "uzakharov",
+        "url": "http://www.linkedin.com/in/uzakharov"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Intelliflo Ltd",
+      "location": "",
+      "description": "",
+      "position": "Senior Software Engineer",
+      "website": "https://www.intelliflo.com/",
+      "startDate": "2019-03-01",
+      "endDate": "",
+      "summary": "Intelliflo is a leading provider of financial software solutions for  financial advisory firms and wealth management professionals.\n\n Developed and maintained the main company's product, Intelligent office",
+      "highlights": [
+        "Introduced an enforced contract-first development workflow. That eliminated ambiguity in the internal and external API's.",
+        "Extended in-house DSL by adding SQL backend. That allowed use of wider range of ORMs and lowered the entry threshold for developers.",
+        "Formalised and developed Swagger/OpenAPI based approaches to integration tests. This allowed us to get rid of irrelevant tests (about 10%) and stabilised tests."
+      ]
+    },
+    {
+      "company": "Allen & Overy",
+      "location": "",
+      "description": "",
+      "position": "Senior Software Developer",
+      "website": "http://www.allenovery.com/",
+      "startDate": "2018-04-02",
+      "endDate": "2019-02-28",
+      "summary": "Integrating new Document Management System with existing infrastructure to replace outdated\nDMS.",
+      "highlights": [""]
+    },
+    {
+      "company": "Gazprom Marketing & Trading",
+      "location": "",
+      "description": "",
+      "position": "Senior Software Developer",
+      "website": "http://www.gazprom-mt.com/",
+      "startDate": "2017-10-02",
+      "endDate": "2018-04-01",
+      "summary": "Maintaining existing trading applications (Gas and Energy trading), using C#, WCF, ASP.NET\nRESTful services, RabbitMQ, MS SQL Server, Entity Framework, WPF, SpecFlow.\nMaintenance includes\nIntroducing new features according to business requirements\nFixing software defects\nDecreasing technical debt and increasing code quality by employing refactoring techniques and\nstatic analysis tools like SonarQube and ReSharper\nImproving testability\nIntegrating with industry standard systems like Xoserve Gemini and OpenLink Endur",
+      "highlights": [""]
+    },
+    {
+      "company": "Halo Financial Limited",
+      "location": "",
+      "description": "",
+      "position": "Software Developer",
+      "website": "https://www.halofinancial.com/",
+      "startDate": "2015-09-02",
+      "endDate": "2017-10-01",
+      "summary": "Being a part of agile development team contributed to most areas of the project – integration with\nexternal and internal systems, desktop applications, back-end services.\nWorking on this project, I had a good opportunity on researching and practical use of cutting-age\ntechnology features as well as the financial area.\nBeing a part of agile development team worked actively on the promotion of coding standards and\nimproving the code quality.\nIntroduced and evolved Continuous Integration solution based on MS TFS.\nKey Projects:\nHalo Financial Online Dealing Platform:\nR&D at PoC stage\nIntegration with Barclays FX platform using FIX protocol (FIX 4.2)\nIntegration with existing bespoke CRM system\nDesign and implementation of ETL process\nDevelopment of the back-end Web services using WCF framework\nDevelopment of monitoring tools for Online Dealing Platform\nDevelopment of Desktop applications using WPF and MVVM frameworks\nDevelopment of data storage solution using MS SQL Server\nMaintaining existing code employing refactoring techniques\nWriting unit tests using NUnit ()\nWriting integration tests\nClose interaction and cooperation with dealers and settlement teams, back-office team.",
+      "highlights": [
+        "Integrated client-facing online application with bank FX platform (FIX 4.2) resulting in reducing the time between clients order and backing transaction from minutes to milliseconds, mitigating the risk of fast market movements.",
+        "Automated manual reconciliation of system data with banking data (using SWIFT) resulting in the task being completed with 95% accuracy in seconds, as opposed to hours of manual work.",
+        "Migrated client base from outdated bespoke CRM to Microsoft Dynamics CRM resulting in sanitising clients data and providing more productive client management solution.",
+        "Designed Continuous Integration solution resulting in reducing the risk of errors in production environment and overheads across the development and deployment process."
+      ]
+    },
+    {
+      "company": "Towers Watson",
+      "location": "",
+      "description": "",
+      "position": "Senior .NET Software Developer",
+      "website": "http://www.towerswatson.com/en-GB",
+      "startDate": "2014-05-02",
+      "endDate": "2015-09-01",
+      "summary": "Being a part of agile development team contributed to all areas of the project – web application,\ndesktop applications, back-end services.\nWorking on this project, I had a good opportunity on researching and practical use of cutting-age\ntechnology features.\nBeing a part of agile development team worked actively on the promotion of coding standards and\nimproving the code quality.\nKey Projects:\nTowers Watson Unify(http://www.towerswatson.com/en-GB/Services/Tools/towers-watson-unify):\nR&D at PoC stage\nDevelopment of the Web applications using AngularJS framework\nDevelopment of Desktop applications using WPF and MVVM frameworks\nDevelopment of back-end applications using MS WF framework\nDevelopment of data storage solution using MS SQL Server\nDevelopment of web-services\nDevelopment of pluggable modules for integration with other Towers Watson products\nIntegration with MS Azure platform\nMaintaining existing code employing refactoring techniques\nWriting unit tests using NUnit (code coverage is about 80%)\nWriting integration tests\nClose interaction and cooperation with QA team.",
+      "highlights": [""]
+    },
+    {
+      "company": "Sigma Systems (Tribold limited Wales)",
+      "location": "",
+      "description": "",
+      "position": "Senior .NET Software Developer",
+      "website": "http://www.sigma-systems.com/",
+      "startDate": "2011-05-02",
+      "endDate": "2014-05-01",
+      "summary": "Working at R&D unit, I had a good opportunity on improving UX and UI aspects of the existing\nsoftware.\nWorking at R&D unit, I had a good opportunity on researching and practical use of cutting-age\ntechnology features.\nWorking at R&D unit, I have researched the possibility of using BDD approach (SpecFlow) in\nexisting projects.\nImplementing new features for existing software according to the customer requirements and new\ntechnological demands.\nBeing a part of agile development team worked actively on the promotion of coding standards and\nimproving the code quality.\nKey Projects:\nTribold EPM and Product Catalog (http://www.sigma-systems.com/products_epm.htm):\nDevelopment of Windows desktop version of Tribold EPM using WPF, Prism, Entity\nFramework, C#, LINQ, Windows Workflow\nMaintaining existing code employing refactoring techniques\nDevelopment of stored procedures for MS SQL Server 2012\nDesign the architecture for the web version of Tribold EPM\nDevelopment of web client for Tribold EPM using Typescript, Knockout.js, JQuery\nResearch of using alternative frameworks, like Funscript, to build the web client\nDevelopment of web services infrastructure for the Tribold EPM using WCF (RESTful),\nASP.NET MVC, C#, LINQ\nImplementing TDD approach using MSTest and JUnit for creating unit tests.\nTribold CPQ - Configure Price Quote services engine (http://www.sigma-systems.com/products_cpq.htm):\nDesign the architecture and API for the Tribold CPQ\nDesign database structure for Tribold CPQ (MS SQL Server 2012)\nImplementation of web services using WCF and C#, Entity Framework, LINQ, PLINQ.\nImplementing TDD approach using MSTest for creating unit tests.",
+      "highlights": [""]
+    },
+    {
+      "company": "Transtel Communications Ltd",
+      "location": "",
+      "description": "",
+      "position": "Senior .NET Software Developer",
+      "website": "http://transtel.com/",
+      "startDate": "2010-07-02",
+      "endDate": "2011-05-01",
+      "summary": "Maintaining existing applications.\nDesign and implementation of new bespoke software.\nRedesign and evolvement of existing applications using WCF/WPF technology. The company\nnow is renewing the set of its products and my main concern is creating reach client application for\nbroadcasting systems that allows composition of broadcast playlists. The application is built on\nWPF technology using C# 4.0 and MVVM design pattern (Microsoft Patterns & Practices Prism\nlibrary).\nImproving development quality. I have introduced and set automated build system. This system is\nintegrated with SVN and uses Cruise Control tool to build planned releases of software and install\nthem on the staging environment.",
+      "highlights": [""]
+    },
+    {
+      "company": "Ligastavok, Moscow, Russia",
+      "location": "",
+      "description": "",
+      "position": "Senior Software Engineer",
+      "website": "http://www.ligastavok.com/en/",
+      "startDate": "2009-03-01",
+      "endDate": "2010-05-03",
+      "summary": "Designed and implemented Enterprise Message Bus infrastructure and services to replace old\ninfrastructure. Message Bus was built on WCF technology (C#3.5) to facilitate connectivity\nbetween branches and processing centre. This infrastructure is scalable, highly available business\ncritical system with low latency requirement.\nImplemented client applications for new Enterprise Message Bus structure. Two kinds of\napplications were developed - Point of Sale software and application for composing the drawings\nof the lottery with analytical reports viewer and online data monitoring. This was built using WPF\n(C# 3.5)\nResponsible for writing detailed technical specifications from high-level business specifications.\n\nWorking throughout the software lifecycle, developing and testing software based on\nspecifications and writing test scenarios.",
+      "highlights": [
+        "Designed and implemented of Enterprise Analytical reports using MS Analysis Services. This solution made it possible to quantify the work of sports analysts."
+      ]
+    },
+    {
+      "company": "Atalan, Moscow, Russia",
+      "location": "",
+      "description": "",
+      "position": "Senior Software Engineer",
+      "website": "http://www.atalan.net/",
+      "startDate": "2005-06-01",
+      "endDate": "2008-12-31",
+      "summary": "Involved in all aspects of the software lifecycle from analysis, design, and development and testing\nof software prior to installation.\nWorking within a Microsoft development environment, specialised in C#, ASP.NET and SQL\nServer technologies.\nAlong with being Database Developer in several projects working as Database Administrator of\ncompany’s internal Databases.\nProviding customers with advisory services regarding Databases.",
+      "highlights": [""]
+    },
+    {
+      "company": "State Department of food resources, Moscow, Russia",
+      "location": "",
+      "description": "",
+      "position": "Software Engineer",
+      "website": "",
+      "startDate": "2005-02-02",
+      "endDate": "2005-04-25",
+      "summary": "Developing the global monitoring system for food distribution in Moscow, was responsible for\nDatabase and Data Warehouse design and implementation.",
+      "highlights": [""]
+    },
+    {
+      "company": "RosBusinessConsulting, Moscow, Russia",
+      "location": "",
+      "description": "",
+      "position": "Senior Programmer, System Analyst, Database Developer",
+      "website": "http://www.rbc.ru/",
+      "startDate": "2003-01-05",
+      "endDate": "2005-02-01",
+      "summary": "Senior Programmer and Database developer in Research and Development department.\nAs a System Analyst participated in several large projects for Government and Business\ncustomers.\nParticipated in maintenance and development of internal ERP system\nAttended to internal Quality Management courses.",
+      "highlights": [""]
+    },
+    {
+      "company": "Alpariz, Moscow, Russia",
+      "location": "",
+      "description": "",
+      "position": "Head of information support team",
+      "website": "",
+      "startDate": "2001-03-02",
+      "endDate": "2002-01-05",
+      "summary": "Managed, maintained and developed data-feed and trading software.\nDesigned and implemented back-office reporting applications.",
+      "highlights": [""]
+    },
+    {
+      "company": "Freelance",
+      "location": "",
+      "description": "",
+      "position": "Freelance Programmer",
+      "website": "",
+      "startDate": "1995-07-01",
+      "endDate": "2001-03-01",
+      "summary": "Accountant application for profit calculation and money movements tracking in the commercial\nbank. Participated in complete development cycle.\nBank / Client and Bank / Correspondent system. Participation - Database design, developing of the\nserver-side of the application.\nInformation system for online multifactor analysis of information from Stock Exchanges, trader’s\ninstruments, \"virtual trader\", decision-making system. Participation – development team leader.\nSystem for gathering, storing and analysis of information from Stock Exchange. Now System is\nadapted and used in Central Institute of Aerodynamics, Zhukovsky, Russia. Participation -\nDatabase design, user interface, and visual data representation.\nPLS v 2.2 (Personal Learning System). Customer - IBM Eastern Europe / Asia, Moscow.\nParticipation - enlisted specialist.\nApplication for profit calculation in the exchange office. Participation - Complete development\ncycle.",
+      "highlights": [""]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "",
+      "position": "",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [""]
+    }
+  ],
+  "education": [],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "publications": [
+    {
+      "name": "",
+      "publisher": "",
+      "releaseDate": "",
+      "website": "",
+      "summary": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "",
+      "level": "",
+      "keywords": [""]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Russian",
+      "fluency": "Native"
+    }
+  ],
+  "interests": [
+    {
+      "name": "",
+      "keywords": [""]
+    }
+  ],
+  "references": [
+    {
+      "name": "",
+      "reference": ""
+    },
+    {
+      "name": "",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "",
+      "endDate": "",
+      "website": "",
+      "roles": [],
+      "entity": "",
+      "type": ""
+    }
+  ],
+  "projects": [],
+  "meta": {
+    "canonical": "",
+    "version": "",
+    "lastModified": ""
+  }
+}
