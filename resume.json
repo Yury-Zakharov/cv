@@ -2,12 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Yury Zakharov",
-    "label": "Senior Software Developer",
+    "label": "Senior Backend Software Engineer (.NET)",
     "picture": "",
     "email": "colonelcolt@gmail.com",
     "phone": "+44 7722850063",
     "website": "",
-    "summary": "Versatile and very successful SOFTWARE DEVELOPER with a wealth of technical\nand commercial skills acquired across a wide range of demanding roles with over\n20 years experience within the IT arena including finance and insurance. Heavy emphasis on clean\narchitecture and code quality. Now seeking next challenging and rewarding opportunity to\ndemonstrate substantial abilities and make an effective contribution to a successful, end-user\nfocused team.",
+    "summary": "Senior backend software engineer with more than 30 years of professional experience and continuous specialization in the .NET ecosystem since its initial release. Extensive hands-on expertise in C#, including long-term ownership, evolution, and modernization of large, business-critical, regulated systems operating at market-leading scale across the UK, Australia, and the USA.\nStrongly opinionated about software quality, correctness, and system design. Works in a declarative,\nfunctional-inspired style, applying concepts drawn from functional programming to production C# code to improve domain clarity, determinism, and long-term maintainability. Emphasizes explicit domain modeling, verification-friendly designs, and requirement-driven development over ad hoc or patch-oriented solutions.\nApproaches software development systematically: new functionality is designed in the context of the existing system, and defects are addressed through root-cause analysis and structural improvements to prevent recurrence. Particularly effective in legacy modernization initiatives, balancing evolutionary change with operational stability in regulated environments.\nActs as a technical leader within teams, improving developer productivity, tooling, and engineering practices, and mentoring other engineers. Prefers senior individual-contributor and technical leadership roles focused on architectural integrity and long-term system health rather than formal people management.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -26,13 +26,13 @@
   "work": [
     {
       "company": "Intelliflo Ltd",
-      "location": "",
-      "description": "",
+      "location": "Wimbledon, UK",
+      "description": "Intelliflo is the UK’s leading provider of financial advice software, empowering firms to streamline advice journeys, engage clients, and grow their business.",
       "position": "Senior Software Engineer",
       "website": "https://www.intelliflo.com/",
       "startDate": "2019-03-01",
-      "endDate": "",
-      "summary": "Intelliflo is a leading provider of financial software solutions for  financial advisory firms and wealth management professionals.\n\n Developed and maintained the main company's product, Intelligent office",
+      "endDate": "2025-10-31",
+      "summary": "",
       "highlights": [
         "Introduced an enforced contract-first development workflow. That eliminated ambiguity in the internal and external API's.",
         "Extended in-house DSL by adding SQL backend. That allowed use of wider range of ORMs and lowered the entry threshold for developers.",
@@ -41,8 +41,8 @@
     },
     {
       "company": "Allen & Overy",
-      "location": "",
-      "description": "",
+      "location": "London, UK",
+      "description": "A legal industry leader with global capabilities.",
       "position": "Senior Software Developer",
       "website": "http://www.allenovery.com/",
       "startDate": "2018-04-02",
@@ -52,8 +52,8 @@
     },
     {
       "company": "Gazprom Marketing & Trading",
-      "location": "",
-      "description": "",
+      "location": "London, UK",
+      "description": "An international energy company.",
       "position": "Senior Software Developer",
       "website": "http://www.gazprom-mt.com/",
       "startDate": "2017-10-02",
@@ -63,8 +63,8 @@
     },
     {
       "company": "Halo Financial Limited",
-      "location": "",
-      "description": "",
+      "location": "London, UK",
+      "description": "Financial services.",
       "position": "Software Developer",
       "website": "https://www.halofinancial.com/",
       "startDate": "2015-09-02",
@@ -79,8 +79,8 @@
     },
     {
       "company": "Towers Watson",
-      "location": "",
-      "description": "",
+      "location": "Reigate, UK",
+      "description": "Risk management, Insurance, Reinsurance, Financial services consulting.",
       "position": "Senior .NET Software Developer",
       "website": "http://www.towerswatson.com/en-GB",
       "startDate": "2014-05-02",
@@ -90,8 +90,8 @@
     },
     {
       "company": "Sigma Systems (Tribold limited Wales)",
-      "location": "",
-      "description": "",
+      "location": "Cwmbran, UK",
+      "description": "Data Infrastructure and Analytics",
       "position": "Senior .NET Software Developer",
       "website": "http://www.sigma-systems.com/",
       "startDate": "2011-05-02",
@@ -101,18 +101,20 @@
     },
     {
       "company": "Transtel Communications Ltd",
-      "location": "",
+      "location": "Cheltenham, UK",
       "description": "",
       "position": "Senior .NET Software Developer",
       "website": "http://transtel.com/",
       "startDate": "2010-07-02",
       "endDate": "2011-05-01",
-      "summary": "Maintaining existing applications.\nDesign and implementation of new bespoke software.\nRedesign and evolvement of existing applications using WCF/WPF technology. The company\nnow is renewing the set of its products and my main concern is creating reach client application for\nbroadcasting systems that allows composition of broadcast playlists. The application is built on\nWPF technology using C# 4.0 and MVVM design pattern (Microsoft Patterns & Practices Prism\nlibrary).\nImproving development quality. I have introduced and set automated build system. This system is\nintegrated with SVN and uses Cruise Control tool to build planned releases of software and install\nthem on the staging environment.",
-      "highlights": [""]
+      "summary": "Maintaining existing applications.\nDesign and implementation of new bespoke software.\nRedesign and evolvement of existing applications using WCF/WPF technology. The company\nnow is renewing the set of its products and my main concern is creating reach client application for\nbroadcasting systems that allows composition of broadcast playlists. The application is built on\nWPF technology using C# 4.0 and MVVM design pattern (Microsoft Patterns & Practices Prism\nlibrary).\nImproving development quality.",
+      "highlights": [
+        "introduced and set UP automated build system. This system was integrated with SVN and used Cruise Control tool to build planned releases of software and install and test them on the staging environment. This reduced release times from days to hours"
+      ]
     },
     {
-      "company": "Ligastavok, Moscow, Russia",
-      "location": "",
+      "company": "Ligastavok",
+      "location": "Moscow, Russia",
       "description": "",
       "position": "Senior Software Engineer",
       "website": "http://www.ligastavok.com/en/",
@@ -124,9 +126,9 @@
       ]
     },
     {
-      "company": "Atalan, Moscow, Russia",
-      "location": "",
-      "description": "",
+      "company": "Atalan",
+      "location": "Moscow, Russia",
+      "description": "Atalan is a Franco-Russian web agency based in Moscow",
       "position": "Senior Software Engineer",
       "website": "http://www.atalan.net/",
       "startDate": "2005-06-01",
@@ -135,8 +137,8 @@
       "highlights": [""]
     },
     {
-      "company": "State Department of food resources, Moscow, Russia",
-      "location": "",
+      "company": "State Department of food resources",
+      "location": "Moscow, Russia",
       "description": "",
       "position": "Software Engineer",
       "website": "",
@@ -146,9 +148,9 @@
       "highlights": [""]
     },
     {
-      "company": "RosBusinessConsulting, Moscow, Russia",
-      "location": "",
-      "description": "",
+      "company": "RosBusinessConsulting",
+      "location": "Moscow, Russia",
+      "description": "The RBC group of companies is one of the leading Russian media holdings.",
       "position": "Senior Programmer, System Analyst, Database Developer",
       "website": "http://www.rbc.ru/",
       "startDate": "2003-01-05",
@@ -157,8 +159,8 @@
       "highlights": [""]
     },
     {
-      "company": "Alpariz, Moscow, Russia",
-      "location": "",
+      "company": "Alpariz",
+      "location": "Moscow, Russia",
       "description": "",
       "position": "Head of information support team",
       "website": "",
@@ -169,7 +171,7 @@
     },
     {
       "company": "Freelance",
-      "location": "",
+      "location": "Moscow, Russia",
       "description": "",
       "position": "Freelance Programmer",
       "website": "",
@@ -179,35 +181,17 @@
       "highlights": [""]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "",
-      "position": "",
-      "website": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [""]
-    }
-  ],
+  "volunteer": [],
   "education": [],
   "awards": [
     {
-      "title": "",
-      "date": "",
-      "awarder": "",
-      "summary": ""
+      "title": "Certified SAFe® 6 Scrum Master",
+      "date": "2023-04-19",
+      "awarder": "http://www.scaledagile.com/",
+      "summary": "A Certified SAFe® 6 Scrum Master is a SAFe® Scrum Master professional responsible for integrating Scrum practices into an organization. Key areas of competency include using Scrum and Kanban to facilitate team events, supporting program execution, and coaching Agile teams.A Certified SAFe® 6 Scrum Master is a SAFe® Scrum Master professional responsible for integrating Scrum practices into an organization. Key areas of competency include using Scrum and Kanban to facilitate team events, supporting program execution, and coaching Agile teams."
     }
   ],
-  "publications": [
-    {
-      "name": "",
-      "publisher": "",
-      "releaseDate": "",
-      "website": "",
-      "summary": ""
-    }
-  ],
+  "publications": [],
   "skills": [
     {
       "name": "",
@@ -252,7 +236,7 @@
   "projects": [],
   "meta": {
     "canonical": "",
-    "version": "",
-    "lastModified": ""
+    "version": "1.0.0",
+    "lastModified": "2026-01-03"
   }
 }
