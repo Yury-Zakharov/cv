@@ -178,14 +178,30 @@
 
   "skills": [
     {
-      "name": "Backend Engineering",
+      "name": "Backend Engineering (.NET)",
       "level": "Expert",
       "keywords": [
         "C#",
-        ".NET (v1–v10)",
+        ".NET",
+        ".NET Core",
+        "ASP.NET",
+        "ASP.NET Core",
+        "Web APIs",
+        "REST",
+        "OpenAPI",
+        "Swagger"
+      ]
+    },
+    {
+      "name": "Architecture & Design",
+      "level": "Advanced",
+      "keywords": [
         "Backend Architecture",
         "Domain Modeling",
-        "Legacy Modernization"
+        "Modular Design",
+        "Legacy System Modernization",
+        "API Design",
+        "Contract-First Development"
       ]
     },
     {
@@ -196,7 +212,33 @@
         "Functional Programming Concepts",
         "Specification-Driven Development",
         "Testing and Verification",
-        "CI/CD and Tooling"
+        "CI/CD",
+        "Developer Tooling"
+      ]
+    },
+    {
+      "name": "Data & Integration",
+      "level": "Advanced",
+      "keywords": [
+        "SQL Server",
+        "Relational Databases",
+        "Messaging",
+        "RabbitMQ",
+        "AWS",
+        "System Integration"
+      ]
+    },
+    {
+      "name": "Financial Systems & Protocols",
+      "level": "Working Knowledge",
+      "keywords": [
+        "Financial Systems",
+        "Trading Systems",
+        "FIX Protocol (4.x)",
+        "SWIFT Messaging",
+        "Settlement and Reconciliation",
+        "Low-Latency Systems",
+        "Regulated Environments"
       ]
     }
   ],
@@ -222,7 +264,7 @@
   "projects": [],
   "meta": {
     "canonical": "",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "lastModified": "2026-01-03"
   }
 }
