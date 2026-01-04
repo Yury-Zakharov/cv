@@ -7,7 +7,7 @@
     "email": "colonelcolt@gmail.com",
     "phone": "+44 7722850063",
     "website": "",
-    "summary": "Senior backend software engineer with more than 30 years of professional experience and continuous specialization in the .NET ecosystem since its initial release. Extensive hands-on expertise in C#, including long-term ownership, evolution, and modernization of large, business-critical, regulated systems operating at market-leading scale across the UK, Australia, and the USA.\n\nStrongly opinionated about software quality, correctness, and system design. Works in a declarative, functional-inspired style, applying concepts drawn from functional programming to production C# code to improve domain clarity, determinism, and long-term maintainability. Emphasizes explicit domain modeling, verification-friendly designs, and requirement-driven development over ad hoc or patch-oriented solutions.\n\nApproaches software development systematically: new functionality is designed in the context of the existing system, and defects are addressed through root-cause analysis and structural improvements to prevent recurrence. Particularly effective in legacy modernization initiatives, balancing evolutionary change with operational stability in regulated environments.\n\nActs as a technical leader within teams, improving developer productivity, tooling, and engineering practices, and mentoring other engineers. Prefers senior individual-contributor and technical leadership roles focused on architectural integrity and long-term system health rather than formal people management.",
+    "summary": "Senior backend software engineer with over 30 years of professional experience and long-term specialisation in the .NET ecosystem since its initial release. Deep hands-on expertise in C# and ownership of large, business-critical, regulated systems operating at market-leading scale across the UK, Australia, and the United States.\nStrongly opinionated about software quality, correctness, and system design. Works in a declarative, functional-inspired style, applying concepts from functional programming to production C# code to improve domain clarity, determinism, and long-term maintainability. Emphasises explicit domain modelling, verification-friendly designs, and requirement-driven development over ad hoc or patch-oriented solutions.\nApproaches software development systematically, designing new functionality in the context of existing systems and addressing defects through root-cause analysis and structural remediation. Particularly effective in legacy modernisation initiatives, balancing evolutionary change with operational stability in regulated environments.\nActs as a technical leader within teams, focusing on architectural integrity, developer productivity, tooling, and engineering practices. Regularly mentors engineers and supports technical decision-making, while preferring senior individual-contributor and technical leadership roles over formal people management.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -33,11 +33,11 @@
       "url": "https://www.intelliflo.com/",
       "startDate": "2019-03-01",
       "endDate": "2025-10-31",
-      "summary": "Senior backend engineer working on a large, regulated financial platform used at market-leading scale across multiple geographies. Acted as a technical leader within a 10-person team, collaborating closely with multiple dependent teams. Focused on legacy modernization, contract clarity, system correctness, and developer productivity.",
+      "summary": "Senior backend engineer working on a UK market-leading financial advice platform operating as a regulated, business-critical system across the UK, Australia, and the USA. Acted as a technical leader within a 10-person team, collaborating closely with multiple dependent teams. Focused on legacy modernisation, contract clarity, system correctness, and sustained improvements to developer productivity in a highly regulated environment.",
       "highlights": [
         "Introduced and enforced a contract-first development approach, significantly reducing ambiguity across internal and external APIs.",
         "Extended an in-house domain-specific language with a SQL backend, broadening ORM support and lowering the entry barrier for developers.",
-        "Formalized Swagger/OpenAPI-based integration testing, removing approximately 10% of low-value tests and substantially improving test stability and confidence.",
+        "Formalised Swagger/OpenAPI-based integration testing, removing approximately 10% of low-value tests and substantially improving test stability and confidence.",
         "Regularly mentored engineers and facilitated internal technical education sessions focused on functional design principles and correctness."
       ]
     },
@@ -50,7 +50,7 @@
       "url": "http://www.allenovery.com/",
       "startDate": "2018-04-02",
       "endDate": "2019-02-28",
-      "summary": "Backend-focused engineer contributing to the integration of a new enterprise Document Management System, replacing a legacy platform within a complex corporate infrastructure. Emphasis on system integration, reliability, and controlled migration.",
+      "summary": "Backend-focused engineer contributing to the integration of a new enterprise Document Management System within a global legal services firm. Worked on replacing a legacy platform inside a complex corporate infrastructure, with emphasis on system integration, reliability, and controlled, low-risk migration.",
       "highlights": [
         "Designed and implemented integration components between the new DMS and existing enterprise systems.",
         "Contributed to de-risking the DMS migration through incremental integration and validation strategies."
@@ -60,12 +60,12 @@
     {
       "name": "Gazprom Marketing & Trading",
       "location": "London, UK",
-      "description": "International energy trading organization.",
+      "description": "International energy trading organisation.",
       "position": "Senior Software Developer",
       "url": "http://www.gazprom-mt.com/",
       "startDate": "2017-10-02",
       "endDate": "2018-04-01",
-      "summary": "Senior backend developer maintaining and evolving business-critical gas and energy trading systems. Focused on stability, correctness, and gradual reduction of technical debt in a high-risk trading environment.",
+      "summary": "Senior backend developer maintaining and evolving business-critical gas and energy trading systems for an international energy trading organisation. Focused on system stability, correctness, and the gradual reduction of technical debt in a high-risk, time-sensitive trading environment.",
       "highlights": [
         "Delivered new trading features aligned with evolving business requirements while maintaining system stability.",
         "Reduced technical debt and improved code quality through systematic refactoring and static analysis.",
@@ -76,12 +76,12 @@
     {
       "name": "Halo Financial Limited",
       "location": "London, UK",
-      "description": "Financial services company specializing in FX products.",
+      "description": "Financial services company specialising in FX products.",
       "position": "Software Developer",
       "url": "https://www.halofinancial.com/",
       "startDate": "2015-09-02",
       "endDate": "2017-10-01",
-      "summary": "Backend and integration-focused developer working on a client-facing online FX trading platform. Actively involved in system integration, automation, and production reliability improvements.",
+      "summary": "Backend and integration-focused developer working on a client-facing online FX trading platform for a financial services company specialising in foreign exchange products. Actively involved in low-latency system integration, automation, and production reliability improvements.",
       "highlights": [
         "Integrated the online trading platform with Barclays FX using FIX 4.2, reducing order execution latency from minutes to milliseconds.",
         "Automated reconciliation processes using SWIFT data, reducing hours of manual work to seconds with high accuracy.",
@@ -98,7 +98,7 @@
       "url": "http://www.towerswatson.com/en-GB",
       "startDate": "2014-05-02",
       "endDate": "2015-09-01",
-      "summary": "Senior developer contributing across backend, desktop, and web components of an enterprise financial platform. Strong focus on architecture, modularity, and testability.",
+      "summary": "Senior developer contributing to backend, desktop, and web components of an enterprise financial platform within a global risk management and financial services consultancy. Focused on architecture, modularity, and testability across a large, multi-product system.",
       "highlights": [
         "Contributed to the architecture and development of a modular enterprise platform integrating multiple internal products.",
         "Maintained high automated test coverage and promoted coding standards across the team.",
@@ -114,7 +114,7 @@
       "url": "http://www.sigma-systems.com/",
       "startDate": "2011-05-02",
       "endDate": "2014-05-01",
-      "summary": "Senior engineer in an R&D unit, responsible for architecture, backend services, and exploratory technical work. Actively researched and applied specification- and test-driven development approaches.",
+      "summary": "Senior engineer in an R&D unit for a provider of enterprise product catalog and pricing solutions. Responsible for backend architecture, API design, and exploratory technical work, with a strong focus on specification-driven and test-driven development practices.",
       "highlights": [
         "Designed backend architectures and APIs for enterprise pricing and catalog systems.",
         "Researched and introduced BDD practices using SpecFlow within existing projects.",
@@ -130,7 +130,7 @@
       "url": "http://transtel.com/",
       "startDate": "2010-07-02",
       "endDate": "2011-05-01",
-      "summary": "Senior developer responsible for modernization of broadcasting software and development infrastructure.",
+      "summary": "Senior developer responsible for the modernisation of broadcasting software and development infrastructure for a broadcasting systems provider. Focused on improving build automation, deployment reliability, and overall engineering efficiency.",
       "highlights": [
         "Introduced automated build and deployment pipelines, reducing release cycles from days to hours."
       ]
@@ -144,7 +144,7 @@
       "url": "http://www.ligastavok.com/en/",
       "startDate": "2009-03-01",
       "endDate": "2010-05-03",
-      "summary": "Designed and implemented a scalable, low-latency enterprise messaging infrastructure for a business-critical analytics platform.",
+      "summary": "Senior software engineer designing and implementing scalable, low-latency backend systems for a large betting and analytics platform. Focused on enterprise messaging, distributed communication, and analytical reporting for business-critical operations.",
       "highlights": [
         "Built a highly available enterprise message bus enabling reliable communication between distributed branches and central systems.",
         "Delivered analytical reporting solutions that significantly improved analyst productivity and insight quality."
@@ -158,7 +158,7 @@
       "position": "Software Engineer / Senior Engineer",
       "startDate": "1995-07-01",
       "endDate": "2009-02-28",
-      "summary": "Early career spanning banking, trading, analytics, government, and enterprise systems. Worked across the full software lifecycle, with a strong emphasis on backend systems, databases, and analytical platforms.",
+      "summary": "Early career spanning banking, trading, analytics, government, and enterprise systems across multiple organisations. Worked across the full software lifecycle with a consistent focus on backend systems, databases, and data-intensive analytical platforms.",
       "highlights": [
         "Designed and implemented backend systems for banking, trading, and analytical applications.",
         "Built data-intensive systems used in both commercial and governmental environments."
@@ -198,7 +198,7 @@
         "Backend Architecture",
         "Domain Modeling",
         "Modular Design",
-        "Legacy System Modernization",
+        "Legacy System Modernisation",
         "API Design",
         "Contract-First Development"
       ]
@@ -263,8 +263,7 @@
   "references": [],
   "projects": [],
   "meta": {
-    "canonical": "",
-    "version": "2.0.1",
-    "lastModified": "2026-01-03"
+    "version": "2.0.2",
+    "lastModified": "2026-01-04"
   }
 }
