@@ -62,9 +62,6 @@ jobs:
 
       - name: Render PDF
         run: |
-          touch build/cv.pdf
-          chmod 664 build/cv.pdf
-
           docker run --rm \
             -v "$PWD:/work:Z" \
             -w /work \
