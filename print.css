@@ -89,3 +89,20 @@ h3 {
 :last-child {
   margin-bottom: 0 !important;
 }
+
+/* ============================
+   Page footer (WeasyPrint)
+   ============================ */
+
+@page {
+  /* Ensure space for footer */
+  margin-bottom: 18mm;
+
+  @bottom-center {
+    content: "Yury Zakharov · Backend Software Engineer · Page " counter(page)
+      " of " counter(pages);
+    font-size: 9pt;
+    color: #666;
+    font-family: inherit;
+  }
+}
