@@ -62,8 +62,10 @@ jobs:
 
       - name: Render PDF
         run: |
+          touch build/cv.pdf
+
           docker run --rm \
-            -v "$PWD:/work" \
+            -v "$PWD:/work:Z" \
             -w /work \
             docker.io/4teamwork/weasyprint \
             weasyprint \
