@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Yury Zakharov</title>
+    <meta name="description" content="Senior backend software engineer with over 30 years of professional experience and long-term specialisation in the .NET ecosystem since its initial release. Deep hands-on expertise in C# and ownership of large, business-critical, regulated systems operating at market-leading scale across the UK, Australia, and the United States.
+Strongly opinionated about software quality, correctness, and system design. Works in a declarative, functional-inspired style, applying concepts from functional programming to production C# code to improve domain clarity, determinism, and long-term maintainability. Emphasises explicit domain modelling, verification-friendly designs, and requirement-driven development over ad hoc or patch-oriented solutions.
+Approaches software development systematically, designing new functionality in the context of existing systems and addressing defects through root-cause analysis and structural remediation. Particularly effective in legacy modernisation initiatives, balancing evolutionary change with operational stability in regulated environments.
+Acts as a technical leader within teams, focusing on architectural integrity, developer productivity, tooling, and engineering practices. Regularly mentors engineers and supports technical decision-making, while preferring senior individual-contributor and technical leadership roles over formal people management.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap">
+    <style>:root {
+  /* Colors */
+  --primaryColor: #212529;
+  --secondaryColor: #95a5a6;
+  --accentColor: #f1c40f;
+  --linkColor: #2ecc71;
+  --mutedColor: #f4f6f6;
+
+  /* Typography */
+  --ratio: 1.25;
+  --scale0: 1rem;
+  --scale1: calc(var(--scale0) * var(--ratio));
+  --scale2: calc(var(--scale1) * var(--ratio));
+  --scale3: calc(var(--scale2) * var(--ratio));
+  --scale4: calc(var(--scale3) * var(--ratio));
+  --scale5: calc(var(--scale4) * var(--ratio));
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  color: var(--primaryColor);
+  display: grid;
+  font: 1em/1.5 Lato, sans-serif;
+  gap: 2em;
+  grid-template-columns:
+    [full-start]
+    1fr
+    [main-start side-start]
+    minmax(min-content, 12em)
+    [side-end content-start]
+    minmax(min-content, 36em)
+    [main-end content-end]
+    1fr
+    [full-end];
+  grid-template-rows: auto [content] 0;
+  margin-bottom: 4em;
+}
+
+body::before {
+  content: '';
+  grid-column: full;
+  grid-row: content;
+}
+
+ol,
+ul {
+  padding-left: 1em;
+}
+
+li + li {
+  margin-top: 0.4em;
+}
+
+li::marker,
+.network {
+  color: var(--secondaryColor);
+}
+
+a {
+  color: var(--linkColor);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:focus,
+a:hover {
+  color: var(--accentColor);
+}
+
+h1,
+h2,
+h3,
+h5 {
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: var(--scale5);
+}
+
+h2 {
+  color: var(--secondaryColor);
+  font-size: var(--scale4);
+}
+
+h3 {
+  color: var(--accentColor);
+  font-size: var(--scale3);
+  grid-column: side;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: var(--scale2);
+}
+
+h5 {
+  font-size: var(--scale1);
+}
+
+h6 {
+  font-size: var(--scale0);
+}
+
+blockquote {
+  border-left: 0.2em solid var(--mutedColor);
+  padding-left: 1em;
+}
+
+cite {
+  color: var(--secondaryColor);
+  font-style: inherit;
+}
+
+cite::before {
+  content: '— ';
+}
+
+svg {
+  margin-right: 0.2em;
+  vertical-align: -0.2em;
+}
+
+.masthead {
+  background: var(--mutedColor);
+  display: inherit;
+  gap: inherit;
+  grid-column: full;
+  grid-template-columns: inherit;
+  padding: 4em 0;
+}
+
+.masthead > *,
+section {
+  grid-column: main;
+}
+
+article > * + *,
+blockquote > * + * {
+  margin-top: 0.6em;
+}
+
+.stack {
+  display: grid;
+  gap: 1.5em;
+}
+
+.icon-list {
+  list-style: none;
+  padding: 0;
+}
+
+.grid-list {
+  display: grid;
+  gap: 1em;
+}
+
+.spaced-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.spaced-list:first-child::before {
+  border-bottom: 1px solid var(--mutedColor);
+  content: '';
+  flex-grow: 1;
+  margin: 0 1em;
+  order: 1;
+}
+
+.spaced-list > :nth-child(2) {
+  order: 2;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.tag-list > li {
+  background: var(--mutedColor);
+  margin: 0 0.2em 0.2em 0;
+  padding: 0.2em 0.6em;
+}
+
+@media print, (min-width: 48em) {
+  h3 {
+    text-align: right;
+    margin-bottom: inherit;
+  }
+
+  .masthead > *,
+  section {
+    grid-column: content;
+  }
+
+  section {
+    display: contents;
+  }
+
+  .grid-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+</style>
+  </head>
+  <body>
+      <header class="masthead">
+        <div>
+            <h1>Yury Zakharov</h1>
+            <h2>Senior Backend Software Engineer (.NET)</h2>
+        </div>
+        <ul class="icon-list">
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                London, United Kingdom
+              </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <a href="mailto:colonelcolt@gmail.com">colonelcolt@gmail.com</a>
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <a href="tel:+447722850063">+44 7722850063</a>
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                  <a href="http://www.linkedin.com/in/uzakharov">uzakharov</a>
+                <span class="network">(LinkedIn)</span>
+            </li>
+        </ul>
+      </header>
+        <section id="about">
+          <h3>About</h3>
+          <article>
+            <p>Senior backend software engineer with over 30 years of professional experience and long-term specialisation in the .NET ecosystem since its initial release. Deep hands-on expertise in C# and ownership of large, business-critical, regulated systems operating at market-leading scale across the UK, Australia, and the United States.</p>
+      <p>Strongly opinionated about software quality, correctness, and system design. Works in a declarative, functional-inspired style, applying concepts from functional programming to production C# code to improve domain clarity, determinism, and long-term maintainability. Emphasises explicit domain modelling, verification-friendly designs, and requirement-driven development over ad hoc or patch-oriented solutions.</p>
+      <p>Approaches software development systematically, designing new functionality in the context of existing systems and addressing defects through root-cause analysis and structural remediation. Particularly effective in legacy modernisation initiatives, balancing evolutionary change with operational stability in regulated environments.</p>
+      <p>Acts as a technical leader within teams, focusing on architectural integrity, developer productivity, tooling, and engineering practices. Regularly mentors engineers and supports technical decision-making, while preferring senior individual-contributor and technical leadership roles over formal people management.</p>
+          </article>
+        </section>
+
+      <section id="work">
+        <h3>Work</h3>
+        <div class="stack">
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Intelliflo Ltd</h4>
+                  <span>
+                    <time datetime="2019-03-01">Mar 2019</time> –
+                    <time datetime="2025-10-31">Oct 2025</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Senior Software Engineer</strong>
+                    <a href="https://www.intelliflo.com/">www.intelliflo.com</a>
+                </div>
+              </header>
+                <p>Senior backend engineer working on a UK market-leading financial advice platform operating as a regulated, business-critical system across the UK, Australia, and the USA. Acted as a technical leader within a 10-person team, collaborating closely with multiple dependent teams. Focused on legacy modernisation, contract clarity, system correctness, and sustained improvements to developer productivity in a highly regulated environment.</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>Introduced and enforced a contract-first development approach, significantly reducing ambiguity across internal and external APIs.</li>
+                    <li>Extended an in-house domain-specific language with a SQL backend, broadening ORM support and lowering the entry barrier for developers.</li>
+                    <li>Formalised Swagger/OpenAPI-based integration testing, removing approximately 10% of low-value tests and substantially improving test stability and confidence.</li>
+                    <li>Regularly mentored engineers and facilitated internal technical education sessions focused on functional design principles and correctness.</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Allen &amp; Overy</h4>
+                  <span>
+                    <time datetime="2018-04-02">Apr 2018</time> –
+                    <time datetime="2019-02-28">Feb 2019</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Senior Software Developer</strong>
+                    <a href="http://www.allenovery.com/">www.allenovery.com</a>
+                </div>
+              </header>
+                <p>Backend-focused engineer contributing to the integration of a new enterprise Document Management System within a global legal services firm. Worked on replacing a legacy platform inside a complex corporate infrastructure, with emphasis on system integration, reliability, and controlled, low-risk migration.</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>Designed and implemented integration components between the new DMS and existing enterprise systems.</li>
+                    <li>Contributed to de-risking the DMS migration through incremental integration and validation strategies.</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Gazprom Marketing &amp; Trading</h4>
+                  <span>
+                    <time datetime="2017-10-02">Oct 2017</time> –
+                    <time datetime="2018-04-01">Apr 2018</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Senior Software Developer</strong>
+                    <a href="http://www.gazprom-mt.com/">www.gazprom-mt.com</a>
+                </div>
+              </header>
+                <p>Senior backend developer maintaining and evolving business-critical gas and energy trading systems for an international energy trading organisation. Focused on system stability, correctness, and the gradual reduction of technical debt in a high-risk, time-sensitive trading environment.</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>Delivered new trading features aligned with evolving business requirements while maintaining system stability.</li>
+                    <li>Reduced technical debt and improved code quality through systematic refactoring and static analysis.</li>
+                    <li>Improved testability and reliability of services integrated with industry-standard platforms such as Xoserve Gemini and OpenLink Endur.</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Halo Financial Limited</h4>
+                  <span>
+                    <time datetime="2015-09-02">Sep 2015</time> –
+                    <time datetime="2017-10-01">Oct 2017</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Software Developer</strong>
+                    <a href="https://www.halofinancial.com/">www.halofinancial.com</a>
+                </div>
+              </header>
+                <p>Backend and integration-focused developer working on a client-facing online FX trading platform for a financial services company specialising in foreign exchange products. Actively involved in low-latency system integration, automation, and production reliability improvements.</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>Integrated the online trading platform with Barclays FX using FIX 4.2, reducing order execution latency from minutes to milliseconds.</li>
+                    <li>Automated reconciliation processes using SWIFT data, reducing hours of manual work to seconds with high accuracy.</li>
+                    <li>Designed and introduced a CI solution, significantly reducing production risk and deployment overhead.</li>
+                    <li>Contributed to data migration from a bespoke CRM to Microsoft Dynamics, improving data quality and operational efficiency.</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Towers Watson</h4>
+                  <span>
+                    <time datetime="2014-05-02">May 2014</time> –
+                    <time datetime="2015-09-01">Sep 2015</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Senior .NET Software Developer</strong>
+                    <a href="http://www.towerswatson.com/en-GB">www.towerswatson.com/en-GB</a>
+                </div>
+              </header>
+                <p>Senior developer contributing to backend, desktop, and web components of an enterprise financial platform within a global risk management and financial services consultancy. Focused on architecture, modularity, and testability across a large, multi-product system.</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>Contributed to the architecture and development of a modular enterprise platform integrating multiple internal products.</li>
+                    <li>Maintained high automated test coverage and promoted coding standards across the team.</li>
+                    <li>Worked closely with QA to improve system reliability and release confidence.</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Sigma Systems (Tribold Limited)</h4>
+                  <span>
+                    <time datetime="2011-05-02">May 2011</time> –
+                    <time datetime="2014-05-01">May 2014</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Senior .NET Software Developer</strong>
+                    <a href="http://www.sigma-systems.com/">www.sigma-systems.com</a>
+                </div>
+              </header>
+                <p>Senior engineer in an R&amp;D unit for a provider of enterprise product catalog and pricing solutions. Responsible for backend architecture, API design, and exploratory technical work, with a strong focus on specification-driven and test-driven development practices.</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>Designed backend architectures and APIs for enterprise pricing and catalog systems.</li>
+                    <li>Researched and introduced BDD practices using SpecFlow within existing projects.</li>
+                    <li>Led architectural design for web-based versions of established desktop products.</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Transtel Communications Ltd</h4>
+                  <span>
+                    <time datetime="2010-07-02">Jul 2010</time> –
+                    <time datetime="2011-05-01">May 2011</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Senior .NET Software Developer</strong>
+                    <a href="http://transtel.com/">transtel.com</a>
+                </div>
+              </header>
+                <p>Senior developer responsible for the modernisation of broadcasting software and development infrastructure for a broadcasting systems provider. Focused on improving build automation, deployment reliability, and overall engineering efficiency.</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>Introduced automated build and deployment pipelines, reducing release cycles from days to hours.</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Ligastavok</h4>
+                  <span>
+                    <time datetime="2009-03-01">Mar 2009</time> –
+                    <time datetime="2010-05-03">May 2010</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Senior Software Engineer</strong>
+                    <a href="http://www.ligastavok.com/en/">www.ligastavok.com/en</a>
+                </div>
+              </header>
+                <p>Senior software engineer designing and implementing scalable, low-latency backend systems for a large betting and analytics platform. Focused on enterprise messaging, distributed communication, and analytical reporting for business-critical operations.</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>Built a highly available enterprise message bus enabling reliable communication between distributed branches and central systems.</li>
+                    <li>Delivered analytical reporting solutions that significantly improved analyst productivity and insight quality.</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Earlier Career (Various)</h4>
+                  <span>
+                    <time datetime="1995-07-01">Jul 1995</time> –
+                    <time datetime="2009-02-28">Feb 2009</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Software Engineer / Senior Engineer</strong>
+                </div>
+              </header>
+                <p>Early career spanning banking, trading, analytics, government, and enterprise systems across multiple organisations. Worked across the full software lifecycle with a consistent focus on backend systems, databases, and data-intensive analytical platforms.</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>Designed and implemented backend systems for banking, trading, and analytical applications.</li>
+                    <li>Built data-intensive systems used in both commercial and governmental environments.</li>
+                </ul>
+            </article>
+        </div>
+      </section>
+      <section id="awards">
+        <h3>Awards</h3>
+        <div class="stack">
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Certified SAFe® 6 Scrum Master</h4>
+                    <time datetime="2023-04-19">Apr 2023</time>
+                </div>
+                <div class="spaced-list">
+                    <div>
+                      Awarded by <strong>Scaled Agile</strong>
+                    </div>
+                </div>
+              </header>
+                <p>Hands-on Scrum Master certification with a focus on delivery flow, team facilitation, and pragmatic application of Agile practices.</p>
+            </article>
+        </div>
+      </section>
+      <section id="skills">
+        <h3>Skills</h3>
+        <div class="grid-list">
+            <div>
+                <h4>Backend Engineering (.NET)</h4>
+                <ul class="tag-list">
+                    <li>C#</li>
+                    <li>.NET</li>
+                    <li>.NET Core</li>
+                    <li>ASP.NET</li>
+                    <li>ASP.NET Core</li>
+                    <li>Web APIs</li>
+                    <li>REST</li>
+                    <li>OpenAPI</li>
+                    <li>Swagger</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Architecture &amp; Design</h4>
+                <ul class="tag-list">
+                    <li>Backend Architecture</li>
+                    <li>Domain Modeling</li>
+                    <li>Modular Design</li>
+                    <li>Legacy System Modernisation</li>
+                    <li>API Design</li>
+                    <li>Contract-First Development</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Engineering Practices</h4>
+                <ul class="tag-list">
+                    <li>Declarative Design</li>
+                    <li>Functional Programming Concepts</li>
+                    <li>Specification-Driven Development</li>
+                    <li>Testing and Verification</li>
+                    <li>CI/CD</li>
+                    <li>Developer Tooling</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Data &amp; Integration</h4>
+                <ul class="tag-list">
+                    <li>SQL Server</li>
+                    <li>Relational Databases</li>
+                    <li>Messaging</li>
+                    <li>RabbitMQ</li>
+                    <li>AWS SQS</li>
+                    <li>AWS SNS</li>
+                    <li>System Integration</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Financial Systems &amp; Protocols</h4>
+                <ul class="tag-list">
+                    <li>Financial Systems</li>
+                    <li>Trading Systems</li>
+                    <li>FIX Protocol (4.x)</li>
+                    <li>SWIFT Messaging</li>
+                    <li>Settlement and Reconciliation</li>
+                    <li>Low-Latency Systems</li>
+                    <li>Regulated Environments</li>
+                </ul>
+            </div>
+        </div>
+      </section>
+      <section id="languages">
+        <h3>Languages</h3>
+        <div class="grid-list">
+            <div>
+                <h4>English</h4>
+              Fluent
+            </div>
+            <div>
+                <h4>Russian</h4>
+              Native
+            </div>
+        </div>
+      </section>
+      <section id="interests">
+        <h3>Interests</h3>
+        <div class="grid-list">
+            <div>
+                <h4>Software Design</h4>
+                <ul class="tag-list">
+                    <li>Functional Programming</li>
+                    <li>Declarative Systems</li>
+                    <li>Correctness and Verification</li>
+                    <li>Programming Language Design</li>
+                </ul>
+            </div>
+        </div>
+      </section>
+  </body>
+</html>
