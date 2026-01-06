@@ -63,6 +63,7 @@ jobs:
       - name: Render PDF
         run: |
           docker run --rm \
+            --user root \
             -v "$PWD:/work:Z" \
             -w /work \
             docker.io/4teamwork/weasyprint \
