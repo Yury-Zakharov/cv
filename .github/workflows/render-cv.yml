@@ -3,12 +3,12 @@ name: Render CV (HTML + PDF)
 on:
   workflow_dispatch:
   push:
-    branches: [ master ]
+    branches: [master]
     paths:
       - resume.json
       - print.css
   pull_request:
-    branches: [ master ]
+    branches: [master]
     paths:
       - resume.json
       - print.css
@@ -65,7 +65,7 @@ jobs:
           docker run --rm \
             -v "$PWD:/work" \
             -w /work \
-            weasyprint/weasyprint:latest \
+            docker.io/4teamwork/weasyprint \
             weasyprint \
               build/print.html \
               build/cv.pdf \
