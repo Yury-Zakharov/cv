@@ -1,0 +1,78 @@
+name: Render CV (HTML + PDF)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ master ]
+    paths:
+      - resume.json
+      - print.css
+  pull_request:
+    branches: [ master ]
+    paths:
+      - resume.json
+      - print.css
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # =========================
+      # Pipeline A — HTML (even)
+      # =========================
+      - name: Render HTML (even theme)
+        run: |
+          mkdir -p build resume-build
+          cd resume-build
+
+          npm init -y >/dev/null
+          npm install \
+            resume-cli@3.0.8 \
+            jsonresume-theme-even@0.9.0 \
+            >/dev/null
+
+          npx resume export ../build/index.html \
+            --resume ../resume.json \
+            --theme even
+
+      - name: Upload HTML artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: cv-html
+          path: build/index.html
+
+      # =========================
+      # Pipeline B — PDF (stackoverflow + print.css)
+      # =========================
+      - name: Render print HTML (stackoverflow theme)
+        run: |
+          cd resume-build
+
+          npm install \
+            jsonresume-theme-stackoverflow \
+            >/dev/null
+
+          npx resume export ../build/print.html \
+            --resume ../resume.json \
+            --theme stackoverflow
+
+      - name: Render PDF
+        run: |
+          docker run --rm \
+            -v "$PWD:/work" \
+            -w /work \
+            weasyprint/weasyprint:latest \
+            weasyprint \
+              build/print.html \
+              build/cv.pdf \
+              --stylesheet print.css
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: cv-pdf
+          path: build/cv.pdf
