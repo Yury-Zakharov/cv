@@ -106,3 +106,44 @@ h3 {
     font-family: inherit;
   }
 }
+
+/* =========================
+   Pagination hygiene
+   ========================= */
+
+/* Keep section headers with content */
+.section {
+  break-inside: avoid;
+}
+
+/* Prevent headers from being stranded */
+.section h2,
+.section h3 {
+  break-after: avoid;
+}
+
+/* Work experience entries should not fragment early */
+.work .item,
+.work .item > header {
+  break-inside: avoid;
+}
+
+/* Keep short descriptions intact */
+p,
+.summary,
+.highlights,
+.highlights li {
+  orphans: 3;
+  widows: 3;
+}
+
+/* Bullet lists should stay together when small */
+ul {
+  break-inside: avoid;
+}
+
+/* Prevent single-line spillovers */
+li {
+  orphans: 2;
+  widows: 2;
+}
