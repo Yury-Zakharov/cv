@@ -26,6 +26,19 @@
 
   "work": [
     {
+      "name": "Independent / Career Transition",
+      "company": "Independent / Career Transition",
+      "position": "Independent Technical Work",
+      "startDate": "2025-11-01",
+      "summary": "Independent technical work, professional development, and selective consulting while evaluating next senior backend role.",
+      "highlights": [
+        "Advanced work on .NET 10, functional design, and declarative system architecture, spec-driven AI coding agents",
+        "Open-source tooling and personal R&D projects",
+        "Active preparation for senior/principal backend engineering roles"
+      ]
+    },
+
+    {
       "name": "Intelliflo Ltd",
       "company": "Intelliflo Ltd",
       "location": "Wimbledon, UK",
