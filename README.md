@@ -7,7 +7,7 @@ All rendered artefacts are generated from it.
 
 ## Structure
 
-
+``` bash
 ├── resume.json # Source of truth (JSON Resume format)
 ├── build/
 │ ├── index.html # Web version (jsonresume-theme-even)
@@ -15,12 +15,13 @@ All rendered artefacts are generated from it.
 ├── print.css # Print-specific stylesheet for PDF generation
 ├── cover-letter/
 │ ├── template.md # General cover letter template
-│ ├── finance.md # Finance / regulated systems variant
+│ ├── email-template.md # General email template
+│ ├── template-finance.md # Finance / regulated systems variant
 │ └── README.md # Usage notes for cover letters
 └── .github/
 └── workflows/
 └── render.yml # Automated rendering pipeline
-
+```
 
 ## Design principles
 
