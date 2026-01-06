@@ -27,6 +27,7 @@
   "work": [
     {
       "name": "Intelliflo Ltd",
+      "company": "Intelliflo Ltd",
       "location": "Wimbledon, UK",
       "description": "UK market leader in financial advice software, operating regulated, business-critical platforms.",
       "position": "Senior Software Engineer",
@@ -44,6 +45,7 @@
 
     {
       "name": "Allen & Overy",
+      "company": "Allen & Overy",
       "location": "London, UK",
       "description": "Global legal services firm.",
       "position": "Senior Software Developer",
@@ -59,6 +61,7 @@
 
     {
       "name": "Gazprom Marketing & Trading",
+      "company": "Gazprom Marketing & Trading",
       "location": "London, UK",
       "description": "International energy trading organisation.",
       "position": "Senior Software Developer",
@@ -75,6 +78,7 @@
 
     {
       "name": "Halo Financial Limited",
+      "company": "Halo Financial Limited",
       "location": "London, UK",
       "description": "Financial services company specialising in FX products.",
       "position": "Software Developer",
@@ -92,6 +96,7 @@
 
     {
       "name": "Towers Watson",
+      "company": "Towers Watson",
       "location": "Reigate, UK",
       "description": "Global risk management and financial services consultancy.",
       "position": "Senior .NET Software Developer",
@@ -108,6 +113,7 @@
 
     {
       "name": "Sigma Systems (Tribold Limited)",
+      "company": "Sigma Systems (Tribold Limited)",
       "location": "Cwmbran, UK",
       "description": "Provider of product catalog and pricing solutions.",
       "position": "Senior .NET Software Developer",
@@ -124,6 +130,7 @@
 
     {
       "name": "Transtel Communications Ltd",
+      "company": "Transtel Communications Ltd",
       "location": "Cheltenham, UK",
       "description": "Broadcasting systems provider.",
       "position": "Senior .NET Software Developer",
@@ -138,6 +145,7 @@
 
     {
       "name": "Ligastavok",
+      "company": "Ligastavok",
       "location": "Moscow, Russia",
       "description": "Large betting and analytics platform.",
       "position": "Senior Software Engineer",
@@ -153,6 +161,7 @@
 
     {
       "name": "Earlier Career (Various)",
+      "company": "Earlier Career (Various)",
       "location": "Russia",
       "description": "",
       "position": "Software Engineer / Senior Engineer",
