@@ -52,7 +52,8 @@
         "Introduced and enforced a contract-first development approach, significantly reducing ambiguity across internal and external APIs.",
         "Extended an in-house domain-specific language with a SQL backend, broadening ORM support and lowering the entry barrier for developers.",
         "Formalised Swagger/OpenAPI-based integration testing, removing approximately 10% of low-value tests and substantially improving test stability and confidence.",
-        "Regularly mentored engineers and facilitated internal technical education sessions focused on functional design principles and correctness."
+        "Regularly mentored engineers and facilitated internal technical education sessions focused on functional design principles and correctness.",
+        "Designed and evolved high-throughput backend APIs with explicit attention to latency, load characteristics, and downstream failure modes, including asynchronous workflows built on AWS SQS and SNS for large-scale client messaging; identified and mitigated AWS service quota constraints to enable reliable bulk delivery while preserving correctness and operational predictability."
       ]
     },
 
