@@ -49,6 +49,7 @@
       "endDate": "2025-10-31",
       "summary": "Senior backend engineer working on a UK market-leading financial advice platform operating as a regulated, business-critical system across the UK, Australia, and the USA. Acted as a technical leader within a 10-person team, collaborating closely with multiple dependent teams. Focused on legacy modernisation, contract clarity, system correctness, and sustained improvements to developer productivity in a highly regulated environment.",
       "highlights": [
+        "Led architectural improvements within the CRM module, introducing a CQRS-based design with distinct contracts for read and write operations. Separated query workloads from command processing, reducing response times in critical paths from 10–15 seconds to sub-second latency. Initiated the decomposition of a monolithic CRM service, extracting access control and security concerns into dedicated services to improve scalability, isolation, and long-term maintainability.",
         "Introduced and enforced a contract-first development approach, significantly reducing ambiguity across internal and external APIs.",
         "Extended an in-house domain-specific language with a SQL backend, broadening ORM support and lowering the entry barrier for developers.",
         "Formalised Swagger/OpenAPI-based integration testing, removing approximately 10% of low-value tests and substantially improving test stability and confidence.",
