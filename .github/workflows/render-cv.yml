@@ -1,4 +1,4 @@
-name: Render CV + Deploy to Personal Page
+name: Render CV + Deploy to Personal Page & Profile README
 
 on:
   push:
@@ -20,7 +20,12 @@ jobs:
 
       - run: nix develop --command rendercv render cv.yaml --output-folder render-output -nopng
 
-      - name: Deploy to Personal GitHub Page
+      - name: Prepare clean deployment files
+        run: |
+          cp render-output/Yury_Zakharov_CV.html render-output/index.html
+          cp render-output/Yury_Zakharov_CV.md render-output/README.md
+
+      - name: Deploy index.html + README.md only
         uses: peaceiris/actions-gh-pages@v4
         with:
           personal_token: ${{ secrets.GH_PAT }}
@@ -29,6 +34,7 @@ jobs:
           publish_branch: main
           force_orphan: true
           destination_dir: .
-          # Rename CV HTML to index.html so it becomes the homepage
+          # Keep only the two files we want
           script: |
-            cp render-output/Yury_Zakharov_CV.html render-output/index.html
+            rm -f render-output/*.pdf render-output/*.typ render-output/*.png 2>/dev/null || true
+            ls -la render-output/
