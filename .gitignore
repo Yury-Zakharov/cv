@@ -10,7 +10,6 @@ resume-print/
 .config/
 .local
 .local/
-render-output/
 .DS_Store
 *.pyc
 __pycache__/
