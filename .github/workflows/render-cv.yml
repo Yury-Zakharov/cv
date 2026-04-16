@@ -1,4 +1,4 @@
-name: Render CV + Deploy ONLY index.html + README.md
+name: Render CV + Deploy (master only)
 
 on:
   push:
@@ -20,13 +20,21 @@ jobs:
 
       - run: nix develop --command rendercv render cv.yaml --output-folder render-output -nopng
 
-      - name: Prepare clean deployment (ONLY index.html + README.md)
+      - name: Commit rendered files to current branch
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update rendered CV (PDF/HTML/MD) for this branch"
+          file_pattern: render-output/*
+
+      - name: Deploy to personal page & profile README (master only)
+        if: github.ref == 'refs/heads/master'
         run: |
           mkdir -p deploy
           cp render-output/Yury_Zakharov_CV.html deploy/index.html
           cp render-output/Yury_Zakharov_CV.md   deploy/README.md
 
-      - name: Deploy to Yury-Zakharov repo (personal page + profile README)
+      - name: Deploy index.html + README.md
+        if: github.ref == 'refs/heads/master'
         uses: peaceiris/actions-gh-pages@v4
         with:
           personal_token: ${{ secrets.GH_PAT }}
