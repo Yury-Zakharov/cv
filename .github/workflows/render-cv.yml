@@ -12,6 +12,9 @@ jobs:
       - uses: actions/checkout@v4
 
       - uses: nixbuild/nix-quick-install-action@v26
+        with:
+          nix_version: '2.24'          # ← this fixes the version error
+
       - run: nix develop --command rendercv render cv.yaml --output-folder render-output -nopng
 
       - uses: stefanzweifel/git-auto-commit-action@v5
