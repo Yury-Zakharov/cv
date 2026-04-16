@@ -1,4 +1,4 @@
-name: Render CV
+name: Render CV + Deploy to Personal Page
 
 on:
   push:
@@ -9,7 +9,7 @@ jobs:
   render:
     runs-on: ubuntu-latest
     permissions:
-      contents: write          # ← this fixes the 403 error
+      contents: write
 
     steps:
       - uses: actions/checkout@v4
@@ -20,7 +20,15 @@ jobs:
 
       - run: nix develop --command rendercv render cv.yaml --output-folder render-output -nopng
 
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Deploy to Personal GitHub Page
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          commit_message: "chore: update rendered CV (PDF/HTML/MD)"
-          file_pattern: render-output/*
+          personal_token: ${{ secrets.GH_PAT }}
+          external_repository: Yury-Zakharov/Yury-Zakharov
+          publish_dir: ./render-output
+          publish_branch: main
+          force_orphan: true
+          destination_dir: .
+          # Rename CV HTML to index.html so it becomes the homepage
+          script: |
+            cp render-output/Yury_Zakharov_CV.html render-output/index.html
