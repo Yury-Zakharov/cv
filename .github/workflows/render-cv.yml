@@ -2,7 +2,7 @@ name: Render CV
 
 on:
   push:
-    branches: [ master, main, migrate-to-rendercv ]
+    branches: [ master ]
   workflow_dispatch:
 
 jobs:
@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - uses: nixbuild/nix-quick-install-action@v26
-      - run: nix develop --command rendercv render cv.yaml --output-folder render-output
+      - run: nix develop --command rendercv render cv.yaml --output-folder render-output -nopng
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
