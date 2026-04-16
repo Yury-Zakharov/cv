@@ -4,3 +4,13 @@ resume-build/
 resume-print/
 .direnv
 .direnv/
+.cache
+.cache/
+.config
+.config/
+.local
+.local/
+render-output/
+.DS_Store
+*.pyc
+__pycache__/

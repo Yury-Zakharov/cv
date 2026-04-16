@@ -1,91 +1,20 @@
-name: Render CV (HTML + PDF)
-
-permissions:
-  contents: write
+name: Render CV
 
 on:
-  workflow_dispatch:
   push:
-    branches: [master]
-    paths:
-      - resume.json
-      - print.css
-  pull_request:
-    branches: [master]
-    paths:
-      - resume.json
-      - print.css
+    branches: [ master, main, migrate-to-rendercv ]
+  workflow_dispatch:
 
 jobs:
   render:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+
+      - uses: nixbuild/nix-quick-install-action@v26
+      - run: nix develop --command rendercv render cv.yaml --output-folder render-output
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          fetch-depth: 0 # required to commit back
-
-      # =========================
-      # Pipeline A — HTML (even)
-      # =========================
-      - name: Render HTML (even theme)
-        run: |
-          mkdir -p build resume-build
-          cd resume-build
-
-          npm init -y >/dev/null
-          npm install \
-            resume-cli@3.0.8 \
-            jsonresume-theme-even@0.9.0 \
-            >/dev/null
-
-          npx resume export ../build/index.html \
-            --resume ../resume.json \
-            --theme even
-
-      # =========================
-      # Pipeline B — PDF (stackoverflow + print.css)
-      # =========================
-      - name: Render print HTML (stackoverflow theme)
-        run: |
-          cd resume-build
-
-          npm install \
-            jsonresume-theme-stackoverflow \
-            >/dev/null
-
-          npx resume export ../build/print.html \
-            --resume ../resume.json \
-            --theme stackoverflow
-
-      - name: Render PDF
-        run: |
-          docker run --rm \
-            --user root \
-            -v "$PWD:/work" \
-            -w /work \
-            docker.io/4teamwork/weasyprint \
-            weasyprint \
-              build/print.html \
-              build/cv.pdf \
-              --stylesheet print.css
-
-      # =========================
-      # Commit artifacts back
-      # =========================
-      - name: Commit rendered artifacts
-        if: github.event_name != 'pull_request'
-        run: |
-          git config user.name "cv-bot"
-          git config user.email "cv-bot@users.noreply.github.com"
-
-          git add build/index.html build/cv.pdf
-
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-            exit 0
-          fi
-
-          git commit -m "chore(cv): regenerate HTML and PDF"
-          git push
+          commit_message: "chore: update rendered CV (PDF/HTML/MD)"
+          file_pattern: render-output/*
