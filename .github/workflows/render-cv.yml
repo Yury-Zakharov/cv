@@ -1,4 +1,4 @@
-name: Render CV + Deploy to Personal Page & Profile README
+name: Render CV + Deploy ONLY index.html + README.md
 
 on:
   push:
@@ -20,21 +20,18 @@ jobs:
 
       - run: nix develop --command rendercv render cv.yaml --output-folder render-output -nopng
 
-      - name: Prepare clean deployment files
+      - name: Prepare clean deployment (ONLY index.html + README.md)
         run: |
-          cp render-output/Yury_Zakharov_CV.html render-output/index.html
-          cp render-output/Yury_Zakharov_CV.md render-output/README.md
+          mkdir -p deploy
+          cp render-output/Yury_Zakharov_CV.html deploy/index.html
+          cp render-output/Yury_Zakharov_CV.md   deploy/README.md
 
-      - name: Deploy index.html + README.md only
+      - name: Deploy to Yury-Zakharov repo (personal page + profile README)
         uses: peaceiris/actions-gh-pages@v4
         with:
           personal_token: ${{ secrets.GH_PAT }}
           external_repository: Yury-Zakharov/Yury-Zakharov
-          publish_dir: ./render-output
+          publish_dir: ./deploy
           publish_branch: main
           force_orphan: true
           destination_dir: .
-          # Keep only the two files we want
-          script: |
-            rm -f render-output/*.pdf render-output/*.typ render-output/*.png 2>/dev/null || true
-            ls -la render-output/
