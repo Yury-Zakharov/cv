@@ -11,9 +11,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: nixbuild/nix-quick-install-action@v26
+      - uses: cachix/install-nix-action@v31
         with:
-          nix_version: '2.24'          # ← this fixes the version error
+          nix_version: '2.24'
 
       - run: nix develop --command rendercv render cv.yaml --output-folder render-output -nopng
 
