@@ -16,25 +16,17 @@ cv:
       username: uzakharov
   sections:
     summary:
-      - "Senior backend software engineer with over 30 years of professional experience and long-term specialisation in the .NET ecosystem since its initial release.
-
-        Deep hands-on expertise in C# and ownership of large, business-critical, regulated systems operating at market-leading scale across the UK, Australia, and the United States.
-
-        Strongly opinionated about software quality, correctness, and system design. Works in a declarative, functional-inspired style, applying concepts from functional programming to production C# code to improve domain clarity, determinism, and long-term maintainability. Emphasises explicit domain modelling, verification-friendly designs, and requirement-driven development over ad hoc or patch-oriented solutions.
-
-        Approaches software development systematically, designing new functionality in the context of existing systems and addressing defects through root-cause analysis and structural remediation. Particularly effective in legacy modernisation initiatives, balancing evolutionary change with operational stability in regulated environments.
-
-        Acts as a technical leader within teams, focusing on architectural integrity, developer productivity, tooling, and engineering practices. Regularly mentors engineers and supports technical decision-making, while preferring senior individual-contributor and technical leadership roles over formal people management."
+      - "Senior .NET backend engineer with 15+ years in senior/technical-lead roles and 30 years total experience specialising in C#, large-scale regulated systems, legacy modernisation, and contract-first architecture. Proven in financial, trading, and enterprise platforms across UK, Australia, USA. Expert in domain-driven design, functional-inspired C#, OpenAPI, and delivering measurable improvements in correctness, performance, and developer productivity. Seeking senior backend / technical-lead roles (remote preferred)."
     experience:
-      - company: Independent / Career Transition
-        position: Independent Technical Work
-        location: ""
+      - company: Independent Technical Research
+        position: Senior .NET Engineer (Independent)
+        location: London, GB
         start_date: "2025-11-01"
         end_date: present
         highlights:
-          - Advanced work on .NET 10, functional design, and declarative system architecture, spec-driven AI coding agents
-          - Open-source tooling and personal R&D projects
-          - Active preparation for senior/principal backend engineering roles
+          - Deep work on .NET 10, functional/declarative architecture, and spec-driven development
+          - Built open-source tooling and personal R&D projects to stay current with modern .NET practices
+          - Actively preparing for senior/principal backend roles"
       - company: "[Intelliflo Ltd](https://www.intelliflo.com/)"
         position: Senior Software Engineer
         location: Wimbledon, UK
@@ -101,54 +93,16 @@ cv:
           - Contributed to the architecture and development of a modular enterprise platform integrating multiple internal products.
           - Maintained high automated test coverage and promoted coding standards across the team.
           - Worked closely with QA to improve system reliability and release confidence.
-      - company: "[Sigma Systems (Tribold Limited)](http://www.sigma-systems.com/)"
-        position: Senior .NET Software Developer
-        location: Cwmbran, UK
-        start_date: "2011-05-02"
-        end_date: "2014-05-01"
-        summary: |
-          Provider of product catalog and pricing solutions.
-
-          Senior engineer in an R&D unit for a provider of enterprise product catalog and pricing solutions. Responsible for backend architecture, API design, and exploratory technical work, with a strong focus on specification-driven and test-driven development practices.
-        highlights:
-          - Designed backend architectures and APIs for enterprise pricing and catalog systems.
-          - Researched and introduced BDD practices using SpecFlow within existing projects.
-          - Led architectural design for web-based versions of established desktop products.
-      - company: "[Transtel Communications Ltd](http://transtel.com/)"
-        position: Senior .NET Software Developer
-        location: Cheltenham, UK
-        start_date: "2010-07-02"
-        end_date: "2011-05-01"
-        summary: |
-          Broadcasting systems provider.
-
-          Senior developer responsible for the modernisation of broadcasting software and development infrastructure for a broadcasting systems provider. Focused on improving build automation, deployment reliability, and overall engineering efficiency.
-        highlights:
-          - Introduced automated build and deployment pipelines, reducing release cycles from days to hours.
-      - company: "[Ligastavok](http://www.ligastavok.com/en/)"
-        position: Senior Software Engineer
-        location: Moscow, Russia
-        start_date: "2009-03-01"
-        end_date: "2010-05-03"
-        summary: |
-          Large betting and analytics platform.
-
-          Senior software engineer designing and implementing scalable, low-latency backend systems for a large betting and analytics platform. Focused on enterprise messaging, distributed communication, and analytical reporting for business-critical operations.
-        highlights:
-          - Built a highly available enterprise message bus enabling reliable communication between distributed branches and central systems.
-          - Delivered analytical reporting solutions that significantly improved analyst productivity and insight quality.
       - company: Earlier Career (Various)
         position: Software Engineer / Senior Engineer
-        location: Russia
+        location: UK & Russia
         start_date: "1995-07-01"
-        end_date: "2009-02-28"
+        end_date: "2011-05-01"
         summary: |
           Various organisations (banking, trading, analytics, government, enterprise systems).
-
-          Early career spanning the full software lifecycle with a consistent focus on backend systems, databases, and data-intensive analytical platforms.
         highlights:
-          - Designed and implemented backend systems for banking, trading, and analytical applications.
-          - Built data-intensive systems used in both commercial and governmental environments.
+          - Designed and delivered data-intensive backend systems and integrations.
+          - Introduced automation, messaging buses, and quality practices in multiple environments.
     technologies:
       - label: Backend Engineering (.NET)
         details: Expert – C#, .NET, .NET Core, ASP.NET, ASP.NET Core, Web APIs, REST, OpenAPI, Swagger
@@ -158,6 +112,8 @@ cv:
         details: Advanced – Declarative Design, Functional Programming Concepts, Specification-Driven Development, Testing and Verification, CI/CD, Developer Tooling
       - label: Data & Integration
         details: Advanced – SQL Server, Relational Databases, Messaging, RabbitMQ, AWS SQS, AWS SNS, System Integration
+      - label: Cloud & Modern Practices
+        details: Working Knowledge – Azure/AWS (SQS, SNS), CI/CD pipelines, Microservices, Docker, Podman
       - label: Financial Systems & Protocols
         details: Working Knowledge – Financial Systems, Trading Systems, FIX Protocol (4.x), SWIFT Messaging, Settlement and Reconciliation, Low-Latency Systems, Regulated Environments
     awards:
