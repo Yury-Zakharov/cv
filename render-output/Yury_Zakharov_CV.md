@@ -8,18 +8,18 @@
 
 
 # Summary
-Senior .NET backend engineer with 15+ years in senior/technical-lead roles and 30 years total experience specialising in C#, large-scale regulated systems, legacy modernisation, and contract-first architecture. Proven in financial, trading, and enterprise platforms across UK, Australia, USA. Expert in domain-driven design, functional-inspired C#, OpenAPI, and delivering measurable improvements in correctness, performance, and developer productivity. Seeking senior backend / technical-lead roles (remote preferred).
+Senior .NET backend engineer with 15+ years in senior/technical-lead roles and 30 years total experience. Specialises in C#, large-scale regulated systems, legacy modernisation, contract-first architecture, domain-driven design, functional-inspired code, microservices and distributed systems. Proven track record delivering measurable improvements in correctness, performance, developer productivity and mentoring across financial, trading, and enterprise platforms in UK, Australia and USA. Seeking senior backend / technical-lead roles (remote-first preferred).
 
 # Experience
 ## **Senior .NET Engineer (Independent)**, Independent Technical Research -- London, GB
 
 Nov 2025 – present
 
-- Deep work on .NET 10, functional/declarative architecture, and spec-driven development
+- Deep work on .NET 10, functional/declarative architecture, spec-driven development and modern engineering practices
 
-- Built open-source tooling and personal R&D projects to stay current with modern .NET practices
+- Built open-source tooling and personal R&D projects to stay current with cloud-native and AI-assisted development
 
-- Actively preparing for senior/principal backend roles"
+- Actively preparing for senior/principal backend roles
 
 
 
@@ -27,21 +27,17 @@ Nov 2025 – present
 
 Mar 2019 – Oct 2025
 
-UK market leader in financial advice software, operating regulated, business-critical platforms.
+UK market leader in financial advice software. Senior backend engineer on regulated, business-critical platform operating across UK, Australia and USA. Collaborative technical leader in 10-person team focused on legacy modernisation, contract clarity, system correctness and developer productivity.
 
 
 
-Senior backend engineer working on a UK market-leading financial advice platform operating as a regulated, business-critical system across the UK, Australia, and the USA. Acted as a technical leader within a 10-person team, collaborating closely with multiple dependent teams. Focused on legacy modernisation, contract clarity, system correctness, and sustained improvements to developer productivity in a highly regulated environment.
+- Introduced contract-first development, significantly reducing API ambiguity and integration issues across internal/external teams
 
+- Extended in-house domain-specific language with SQL backend, improving developer productivity and broadening ORM support
 
+- Formalised Swagger/OpenAPI integration testing, removing ~10% of low-value tests and greatly improving stability and confidence
 
-- Introduced and enforced a contract-first development approach, significantly reducing ambiguity across internal and external APIs.
-
-- Extended an in-house domain-specific language with a SQL backend, broadening ORM support and lowering the entry barrier for developers.
-
-- Formalised Swagger/OpenAPI-based integration testing, removing approximately 10% of low-value tests and substantially improving test stability and confidence.
-
-- Regularly mentored engineers and facilitated internal technical education sessions focused on functional design principles and correctness.
+- Mentored engineers and ran internal sessions on functional design and system correctness, raising team capability and engineering standards
 
 
 
@@ -49,17 +45,13 @@ Senior backend engineer working on a UK market-leading financial advice platform
 
 Apr 2018 – Feb 2019
 
-Global legal services firm.
+Global legal services firm. Backend engineer integrating new enterprise Document Management System into complex legacy infrastructure.
 
 
 
-Backend-focused engineer contributing to the integration of a new enterprise Document Management System within a global legal services firm. Worked on replacing a legacy platform inside a complex corporate infrastructure, with emphasis on system integration, reliability, and controlled, low-risk migration.
+- Designed and implemented integration components between new DMS and existing enterprise systems
 
-
-
-- Designed and implemented integration components between the new DMS and existing enterprise systems.
-
-- Contributed to de-risking the DMS migration through incremental integration and validation strategies.
+- Delivered incremental integration and validation strategies to de-risk the migration
 
 
 
@@ -67,19 +59,15 @@ Backend-focused engineer contributing to the integration of a new enterprise Doc
 
 Oct 2017 – Apr 2018
 
-International energy trading organisation.
+International energy trading organisation. Senior backend developer maintaining business-critical gas and energy trading systems.
 
 
 
-Senior backend developer maintaining and evolving business-critical gas and energy trading systems for an international energy trading organisation. Focused on system stability, correctness, and the gradual reduction of technical debt in a high-risk, time-sensitive trading environment.
+- Delivered new trading features while maintaining high system stability in high-risk environment
 
+- Reduced technical debt through systematic refactoring and static analysis
 
-
-- Delivered new trading features aligned with evolving business requirements while maintaining system stability.
-
-- Reduced technical debt and improved code quality through systematic refactoring and static analysis.
-
-- Improved testability and reliability of services integrated with industry-standard platforms such as Xoserve Gemini and OpenLink Endur.
+- Improved testability and reliability of services integrated with Xoserve Gemini and OpenLink Endur
 
 
 
@@ -87,21 +75,17 @@ Senior backend developer maintaining and evolving business-critical gas and ener
 
 Sept 2015 – Oct 2017
 
-Financial services company specialising in FX products.
+Financial services company specialising in FX products. Backend and integration developer on client-facing online FX trading platform.
 
 
 
-Backend and integration-focused developer working on a client-facing online FX trading platform for a financial services company specialising in foreign exchange products. Actively involved in low-latency system integration, automation, and production reliability improvements.
+- Integrated platform with Barclays FX using FIX 4.2, reducing order execution latency from minutes to milliseconds
 
+- Automated SWIFT reconciliation processes, cutting manual work from hours to seconds
 
+- Designed and introduced CI solution, significantly reducing production risk and deployment time
 
-- Integrated the online trading platform with Barclays FX using FIX 4.2, reducing order execution latency from minutes to milliseconds.
-
-- Automated reconciliation processes using SWIFT data, reducing hours of manual work to seconds with high accuracy.
-
-- Designed and introduced a CI solution, significantly reducing production risk and deployment overhead.
-
-- Contributed to data migration from a bespoke CRM to Microsoft Dynamics, improving data quality and operational efficiency.
+- Migrated data from bespoke CRM to Microsoft Dynamics
 
 
 
@@ -109,19 +93,15 @@ Backend and integration-focused developer working on a client-facing online FX t
 
 May 2014 – Sept 2015
 
-Global risk management and financial services consultancy.
+Global risk management and financial services consultancy. Senior developer on large modular enterprise financial platform.
 
 
 
-Senior developer contributing to backend, desktop, and web components of an enterprise financial platform within a global risk management and financial services consultancy. Focused on architecture, modularity, and testability across a large, multi-product system.
+- Contributed to architecture and development of modular platform integrating multiple internal products
 
+- Maintained high automated test coverage and promoted coding standards
 
-
-- Contributed to the architecture and development of a modular enterprise platform integrating multiple internal products.
-
-- Maintained high automated test coverage and promoted coding standards across the team.
-
-- Worked closely with QA to improve system reliability and release confidence.
+- Worked with QA to improve system reliability and release confidence
 
 
 
@@ -129,13 +109,13 @@ Senior developer contributing to backend, desktop, and web components of an ente
 
 July 1995 – May 2011
 
-Various organisations (banking, trading, analytics, government, enterprise systems).
+Backend-focused roles in banking, trading, analytics, government and enterprise systems.
 
 
 
-- Designed and delivered data-intensive backend systems and integrations.
+- Designed and delivered data-intensive backend systems and integrations
 
-- Introduced automation, messaging buses, and quality practices in multiple environments.
+- Introduced automation, messaging buses, and quality practices across multiple environments
 
 
 
@@ -148,9 +128,14 @@ Various organisations (banking, trading, analytics, government, enterprise syste
 
 **Data & Integration:** Advanced – SQL Server, Relational Databases, Messaging, RabbitMQ, AWS SQS, AWS SNS, System Integration
 
-**Cloud & Modern Practices:** Working Knowledge – Azure/AWS (SQS, SNS), CI/CD pipelines, Microservices, Docker, Podman
+**Cloud & Modern Practices:** Working Knowledge – Azure, CI/CD pipelines, Microservices, Distributed Systems, Containerisation (Docker, Podman)
 
 **Financial Systems & Protocols:** Working Knowledge – Financial Systems, Trading Systems, FIX Protocol (4.x), SWIFT Messaging, Settlement and Reconciliation, Low-Latency Systems, Regulated Environments
 
 # Awards
 **Certified SAFe® 6 Scrum Master:** Scaled Agile
+
+# Education
+## **Moscow Institute of Chemical Engineering**, Chemical Engineering -- RussiaEquivalent to UK Bachelor’s level via 30+ years senior backend engineering experience in regulated financial and enterprise systems.
+
+
