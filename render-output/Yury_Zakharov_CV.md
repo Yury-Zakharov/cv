@@ -8,22 +8,18 @@
 
 
 # Summary
-Senior backend software engineer with over 30 years of professional experience and long-term specialisation in the .NET ecosystem since its initial release.
-Deep hands-on expertise in C# and ownership of large, business-critical, regulated systems operating at market-leading scale across the UK, Australia, and the United States.
-Strongly opinionated about software quality, correctness, and system design. Works in a declarative, functional-inspired style, applying concepts from functional programming to production C# code to improve domain clarity, determinism, and long-term maintainability. Emphasises explicit domain modelling, verification-friendly designs, and requirement-driven development over ad hoc or patch-oriented solutions.
-Approaches software development systematically, designing new functionality in the context of existing systems and addressing defects through root-cause analysis and structural remediation. Particularly effective in legacy modernisation initiatives, balancing evolutionary change with operational stability in regulated environments.
-Acts as a technical leader within teams, focusing on architectural integrity, developer productivity, tooling, and engineering practices. Regularly mentors engineers and supports technical decision-making, while preferring senior individual-contributor and technical leadership roles over formal people management.
+Senior .NET backend engineer with 15+ years in senior/technical-lead roles and 30 years total experience specialising in C#, large-scale regulated systems, legacy modernisation, and contract-first architecture. Proven in financial, trading, and enterprise platforms across UK, Australia, USA. Expert in domain-driven design, functional-inspired C#, OpenAPI, and delivering measurable improvements in correctness, performance, and developer productivity. Seeking senior backend / technical-lead roles (remote preferred).
 
 # Experience
-## **Independent Technical Work**, Independent / Career Transition
+## **Senior .NET Engineer (Independent)**, Independent Technical Research -- London, GB
 
 Nov 2025 – present
 
-- Advanced work on .NET 10, functional design, and declarative system architecture, spec-driven AI coding agents
+- Deep work on .NET 10, functional/declarative architecture, and spec-driven development
 
-- Open-source tooling and personal R&D projects
+- Built open-source tooling and personal R&D projects to stay current with modern .NET practices
 
-- Active preparation for senior/principal backend engineering roles
+- Actively preparing for senior/principal backend roles"
 
 
 
@@ -129,75 +125,17 @@ Senior developer contributing to backend, desktop, and web components of an ente
 
 
 
-## **Senior .NET Software Developer**, [Sigma Systems (Tribold Limited)](http://www.sigma-systems.com/) -- Cwmbran, UK
+## **Software Engineer / Senior Engineer**, Earlier Career (Various) -- UK & Russia
 
-May 2011 – May 2014
-
-Provider of product catalog and pricing solutions.
-
-
-
-Senior engineer in an R&D unit for a provider of enterprise product catalog and pricing solutions. Responsible for backend architecture, API design, and exploratory technical work, with a strong focus on specification-driven and test-driven development practices.
-
-
-
-- Designed backend architectures and APIs for enterprise pricing and catalog systems.
-
-- Researched and introduced BDD practices using SpecFlow within existing projects.
-
-- Led architectural design for web-based versions of established desktop products.
-
-
-
-## **Senior .NET Software Developer**, [Transtel Communications Ltd](http://transtel.com/) -- Cheltenham, UK
-
-July 2010 – May 2011
-
-Broadcasting systems provider.
-
-
-
-Senior developer responsible for the modernisation of broadcasting software and development infrastructure for a broadcasting systems provider. Focused on improving build automation, deployment reliability, and overall engineering efficiency.
-
-
-
-- Introduced automated build and deployment pipelines, reducing release cycles from days to hours.
-
-
-
-## **Senior Software Engineer**, [Ligastavok](http://www.ligastavok.com/en/) -- Moscow, Russia
-
-Mar 2009 – May 2010
-
-Large betting and analytics platform.
-
-
-
-Senior software engineer designing and implementing scalable, low-latency backend systems for a large betting and analytics platform. Focused on enterprise messaging, distributed communication, and analytical reporting for business-critical operations.
-
-
-
-- Built a highly available enterprise message bus enabling reliable communication between distributed branches and central systems.
-
-- Delivered analytical reporting solutions that significantly improved analyst productivity and insight quality.
-
-
-
-## **Software Engineer / Senior Engineer**, Earlier Career (Various) -- Russia
-
-July 1995 – Feb 2009
+July 1995 – May 2011
 
 Various organisations (banking, trading, analytics, government, enterprise systems).
 
 
 
-Early career spanning the full software lifecycle with a consistent focus on backend systems, databases, and data-intensive analytical platforms.
+- Designed and delivered data-intensive backend systems and integrations.
 
-
-
-- Designed and implemented backend systems for banking, trading, and analytical applications.
-
-- Built data-intensive systems used in both commercial and governmental environments.
+- Introduced automation, messaging buses, and quality practices in multiple environments.
 
 
 
@@ -209,6 +147,8 @@ Early career spanning the full software lifecycle with a consistent focus on bac
 **Engineering Practices:** Advanced – Declarative Design, Functional Programming Concepts, Specification-Driven Development, Testing and Verification, CI/CD, Developer Tooling
 
 **Data & Integration:** Advanced – SQL Server, Relational Databases, Messaging, RabbitMQ, AWS SQS, AWS SNS, System Integration
+
+**Cloud & Modern Practices:** Working Knowledge – Azure/AWS (SQS, SNS), CI/CD pipelines, Microservices, Docker, Podman
 
 **Financial Systems & Protocols:** Working Knowledge – Financial Systems, Trading Systems, FIX Protocol (4.x), SWIFT Messaging, Settlement and Reconciliation, Low-Latency Systems, Regulated Environments
 
