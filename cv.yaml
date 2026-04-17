@@ -8,7 +8,6 @@ cv:
   location: London, GB
   email: colonelcolt@gmail.com
   phone: +44 7722850063
-  # website: ''
   social_networks:
     - network: GitHub
       username: Yury-Zakharov
@@ -16,7 +15,7 @@ cv:
       username: uzakharov
   sections:
     summary:
-      - "Senior .NET backend engineer with 15+ years in senior/technical-lead roles and 30 years total experience specialising in C#, large-scale regulated systems, legacy modernisation, and contract-first architecture. Proven in financial, trading, and enterprise platforms across UK, Australia, USA. Expert in domain-driven design, functional-inspired C#, OpenAPI, and delivering measurable improvements in correctness, performance, and developer productivity. Seeking senior backend / technical-lead roles (remote preferred)."
+      - "Senior .NET backend engineer with 15+ years in senior/technical-lead roles and 30 years total experience. Specialises in C#, large-scale regulated systems, legacy modernisation, contract-first architecture, domain-driven design, functional-inspired code, microservices and distributed systems. Proven track record delivering measurable improvements in correctness, performance, developer productivity and mentoring across financial, trading, and enterprise platforms in UK, Australia and USA. Seeking senior backend / technical-lead roles (remote-first preferred)."
     experience:
       - company: Independent Technical Research
         position: Senior .NET Engineer (Independent)
@@ -24,85 +23,75 @@ cv:
         start_date: "2025-11-01"
         end_date: present
         highlights:
-          - Deep work on .NET 10, functional/declarative architecture, and spec-driven development
-          - Built open-source tooling and personal R&D projects to stay current with modern .NET practices
-          - Actively preparing for senior/principal backend roles"
+          - Deep work on .NET 10, functional/declarative architecture, spec-driven development and modern engineering practices
+          - Built open-source tooling and personal R&D projects to stay current with cloud-native and AI-assisted development
+          - Actively preparing for senior/principal backend roles
       - company: "[Intelliflo Ltd](https://www.intelliflo.com/)"
         position: Senior Software Engineer
         location: Wimbledon, UK
         start_date: "2019-03-01"
         end_date: "2025-10-31"
         summary: |
-          UK market leader in financial advice software, operating regulated, business-critical platforms.
-
-          Senior backend engineer working on a UK market-leading financial advice platform operating as a regulated, business-critical system across the UK, Australia, and the USA. Acted as a technical leader within a 10-person team, collaborating closely with multiple dependent teams. Focused on legacy modernisation, contract clarity, system correctness, and sustained improvements to developer productivity in a highly regulated environment.
+          UK market leader in financial advice software. Senior backend engineer on regulated, business-critical platform operating across UK, Australia and USA. Collaborative technical leader in 10-person team focused on legacy modernisation, contract clarity, system correctness and developer productivity.
         highlights:
-          - Introduced and enforced a contract-first development approach, significantly reducing ambiguity across internal and external APIs.
-          - Extended an in-house domain-specific language with a SQL backend, broadening ORM support and lowering the entry barrier for developers.
-          - Formalised Swagger/OpenAPI-based integration testing, removing approximately 10% of low-value tests and substantially improving test stability and confidence.
-          - Regularly mentored engineers and facilitated internal technical education sessions focused on functional design principles and correctness.
+          - Introduced contract-first development, significantly reducing API ambiguity and integration issues across internal/external teams
+          - Extended in-house domain-specific language with SQL backend, improving developer productivity and broadening ORM support
+          - Formalised Swagger/OpenAPI integration testing, removing ~10% of low-value tests and greatly improving stability and confidence
+          - Mentored engineers and ran internal sessions on functional design and system correctness, raising team capability and engineering standards
       - company: "[Allen & Overy](http://www.allenovery.com/)"
         position: Senior Software Developer
         location: London, UK
         start_date: "2018-04-02"
         end_date: "2019-02-28"
         summary: |
-          Global legal services firm.
-
-          Backend-focused engineer contributing to the integration of a new enterprise Document Management System within a global legal services firm. Worked on replacing a legacy platform inside a complex corporate infrastructure, with emphasis on system integration, reliability, and controlled, low-risk migration.
+          Global legal services firm. Backend engineer integrating new enterprise Document Management System into complex legacy infrastructure.
         highlights:
-          - Designed and implemented integration components between the new DMS and existing enterprise systems.
-          - Contributed to de-risking the DMS migration through incremental integration and validation strategies.
+          - Designed and implemented integration components between new DMS and existing enterprise systems
+          - Delivered incremental integration and validation strategies to de-risk the migration
       - company: "[Gazprom Marketing & Trading](http://www.gazprom-mt.com/)"
         position: Senior Software Developer
         location: London, UK
         start_date: "2017-10-02"
         end_date: "2018-04-01"
         summary: |
-          International energy trading organisation.
-
-          Senior backend developer maintaining and evolving business-critical gas and energy trading systems for an international energy trading organisation. Focused on system stability, correctness, and the gradual reduction of technical debt in a high-risk, time-sensitive trading environment.
+          International energy trading organisation. Senior backend developer maintaining business-critical gas and energy trading systems.
         highlights:
-          - Delivered new trading features aligned with evolving business requirements while maintaining system stability.
-          - Reduced technical debt and improved code quality through systematic refactoring and static analysis.
-          - Improved testability and reliability of services integrated with industry-standard platforms such as Xoserve Gemini and OpenLink Endur.
+          - Delivered new trading features while maintaining high system stability in high-risk environment
+          - Reduced technical debt through systematic refactoring and static analysis
+          - Improved testability and reliability of services integrated with Xoserve Gemini and OpenLink Endur
       - company: "[Halo Financial Limited](https://www.halofinancial.com/)"
         position: Software Developer
         location: London, UK
         start_date: "2015-09-02"
         end_date: "2017-10-01"
         summary: |
-          Financial services company specialising in FX products.
-
-          Backend and integration-focused developer working on a client-facing online FX trading platform for a financial services company specialising in foreign exchange products. Actively involved in low-latency system integration, automation, and production reliability improvements.
+          Financial services company specialising in FX products. Backend and integration developer on client-facing online FX trading platform.
         highlights:
-          - Integrated the online trading platform with Barclays FX using FIX 4.2, reducing order execution latency from minutes to milliseconds.
-          - Automated reconciliation processes using SWIFT data, reducing hours of manual work to seconds with high accuracy.
-          - Designed and introduced a CI solution, significantly reducing production risk and deployment overhead.
-          - Contributed to data migration from a bespoke CRM to Microsoft Dynamics, improving data quality and operational efficiency.
+          - Integrated platform with Barclays FX using FIX 4.2, reducing order execution latency from minutes to milliseconds
+          - Automated SWIFT reconciliation processes, cutting manual work from hours to seconds
+          - Designed and introduced CI solution, significantly reducing production risk and deployment time
+          - Migrated data from bespoke CRM to Microsoft Dynamics
       - company: "[Towers Watson](http://www.towerswatson.com/en-GB)"
         position: Senior .NET Software Developer
         location: Reigate, UK
         start_date: "2014-05-02"
         end_date: "2015-09-01"
         summary: |
-          Global risk management and financial services consultancy.
-
-          Senior developer contributing to backend, desktop, and web components of an enterprise financial platform within a global risk management and financial services consultancy. Focused on architecture, modularity, and testability across a large, multi-product system.
+          Global risk management and financial services consultancy. Senior developer on large modular enterprise financial platform.
         highlights:
-          - Contributed to the architecture and development of a modular enterprise platform integrating multiple internal products.
-          - Maintained high automated test coverage and promoted coding standards across the team.
-          - Worked closely with QA to improve system reliability and release confidence.
+          - Contributed to architecture and development of modular platform integrating multiple internal products
+          - Maintained high automated test coverage and promoted coding standards
+          - Worked with QA to improve system reliability and release confidence
       - company: Earlier Career (Various)
         position: Software Engineer / Senior Engineer
         location: UK & Russia
         start_date: "1995-07-01"
         end_date: "2011-05-01"
         summary: |
-          Various organisations (banking, trading, analytics, government, enterprise systems).
+          Backend-focused roles in banking, trading, analytics, government and enterprise systems.
         highlights:
-          - Designed and delivered data-intensive backend systems and integrations.
-          - Introduced automation, messaging buses, and quality practices in multiple environments.
+          - Designed and delivered data-intensive backend systems and integrations
+          - Introduced automation, messaging buses, and quality practices across multiple environments
     technologies:
       - label: Backend Engineering (.NET)
         details: Expert – C#, .NET, .NET Core, ASP.NET, ASP.NET Core, Web APIs, REST, OpenAPI, Swagger
@@ -113,9 +102,14 @@ cv:
       - label: Data & Integration
         details: Advanced – SQL Server, Relational Databases, Messaging, RabbitMQ, AWS SQS, AWS SNS, System Integration
       - label: Cloud & Modern Practices
-        details: Working Knowledge – Azure/AWS (SQS, SNS), CI/CD pipelines, Microservices, Docker, Podman
+        details: Working Knowledge – Azure, CI/CD pipelines, Microservices, Distributed Systems, Containerisation (Docker, Podman)
       - label: Financial Systems & Protocols
         details: Working Knowledge – Financial Systems, Trading Systems, FIX Protocol (4.x), SWIFT Messaging, Settlement and Reconciliation, Low-Latency Systems, Regulated Environments
     awards:
       - label: Certified SAFe® 6 Scrum Master
         details: Scaled Agile
+    education:
+      - institution: Moscow Institute of Chemical Engineering
+        location: Russia
+        area: Chemical Engineering
+        summary: Equivalent to UK Bachelor’s level via 30+ years senior backend engineering experience in regulated financial and enterprise systems.
