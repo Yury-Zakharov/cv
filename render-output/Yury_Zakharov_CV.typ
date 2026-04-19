@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 4,
-    day: 17,
+    day: 19,
   ),
 )
 
@@ -149,21 +149,23 @@ Senior .NET backend engineer with 15+ years in senior\/technical-lead roles and 
 
 #regular-entry(
   [
-    #strong[Senior Software Developer], #link("http://www.allenovery.com/")[Allen & Overy] -- London, UK
+    #strong[Senior Software Engineer (Contract)], Various Financial Services Clients (Allen & Overy, Mizuho, Vanquis Bank) -- London, UK
 
   ],
   [
-    Apr 2018 – Feb 2019
+    Apr 2018 – Mar 2019
 
   ],
   main-column-second-row: [
-    #summary[Global legal services firm. Backend engineer integrating new enterprise Document Management System into complex legacy infrastructure.]
+    #summary[Contract backend engineer delivering critical integration and compliance work for three regulated financial institutions.]
 
     
 
-    - Designed and implemented integration components between new DMS and existing enterprise systems
+    - At Allen & Overy designed and implemented integration components for a new enterprise Document Management System, using incremental validation to de-risk migration within a complex global infrastructure
 
-    - Delivered incremental integration and validation strategies to de-risk the migration
+    - At Mizuho led FIX protocol enhancements to achieve full MIFID II compliance for the trading system
+
+    - At Vanquis Bank delivered integration to a new credit-scoring system as part of a major platform renovation
 
   ],
 )

@@ -41,17 +41,19 @@ UK market leader in financial advice software. Senior backend engineer on regula
 
 
 
-## **Senior Software Developer**, [Allen & Overy](http://www.allenovery.com/) -- London, UK
+## **Senior Software Engineer (Contract)**, Various Financial Services Clients (Allen & Overy, Mizuho, Vanquis Bank) -- London, UK
 
-Apr 2018 – Feb 2019
+Apr 2018 – Mar 2019
 
-Global legal services firm. Backend engineer integrating new enterprise Document Management System into complex legacy infrastructure.
+Contract backend engineer delivering critical integration and compliance work for three regulated financial institutions.
 
 
 
-- Designed and implemented integration components between new DMS and existing enterprise systems
+- At Allen & Overy designed and implemented integration components for a new enterprise Document Management System, using incremental validation to de-risk migration within a complex global infrastructure
 
-- Delivered incremental integration and validation strategies to de-risk the migration
+- At Mizuho led FIX protocol enhancements to achieve full MIFID II compliance for the trading system
+
+- At Vanquis Bank delivered integration to a new credit-scoring system as part of a major platform renovation
 
 
 
