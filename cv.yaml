@@ -29,7 +29,7 @@ cv:
       - company: "[Intelliflo Ltd](https://www.intelliflo.com/)"
         position: Senior Software Engineer
         location: Wimbledon, UK
-        start_date: "2019-03-01"
+        start_date: "2019-03-05"
         end_date: "2025-10-31"
         summary: |
           UK market leader in financial advice software. Senior backend engineer on regulated, business-critical platform operating across UK, Australia and USA. Collaborative technical leader in 10-person team focused on legacy modernisation, contract clarity, system correctness and developer productivity.
@@ -38,16 +38,17 @@ cv:
           - Extended in-house domain-specific language with SQL backend, improving developer productivity and broadening ORM support
           - Formalised Swagger/OpenAPI integration testing, removing ~10% of low-value tests and greatly improving stability and confidence
           - Mentored engineers and ran internal sessions on functional design and system correctness, raising team capability and engineering standards
-      - company: "[Allen & Overy](http://www.allenovery.com/)"
-        position: Senior Software Developer
+      - company: Various Financial Services Clients (Allen & Overy, Mizuho, Vanquis Bank)
+        position: Senior Software Engineer (Contract)
         location: London, UK
         start_date: "2018-04-02"
-        end_date: "2019-02-28"
+        end_date: "2019-03-01"
         summary: |
-          Global legal services firm. Backend engineer integrating new enterprise Document Management System into complex legacy infrastructure.
+          Contract backend engineer delivering critical integration and compliance work for three regulated financial institutions.
         highlights:
-          - Designed and implemented integration components between new DMS and existing enterprise systems
-          - Delivered incremental integration and validation strategies to de-risk the migration
+          - At Allen & Overy designed and implemented integration components for a new enterprise Document Management System, using incremental validation to de-risk migration within a complex global infrastructure
+          - At Mizuho led FIX protocol enhancements to achieve full MIFID II compliance for the trading system
+          - At Vanquis Bank delivered integration to a new credit-scoring system as part of a major platform renovation
       - company: "[Gazprom Marketing & Trading](http://www.gazprom-mt.com/)"
         position: Senior Software Developer
         location: London, UK
