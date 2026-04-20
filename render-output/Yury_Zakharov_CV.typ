@@ -11,10 +11,10 @@
   text-direction: ltr,
   page-size: "us-letter",
   page-top-margin: 0.7in,
-  page-bottom-margin: 0.7in,
+  page-bottom-margin: 0.45in,
   page-left-margin: 0.7in,
   page-right-margin: 0.7in,
-  page-show-footer: true,
+  page-show-footer: false,
   page-show-top-note: true,
   colors-body: rgb(0, 0, 0),
   colors-name: rgb(0, 79, 144),
@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 4,
-    day: 19,
+    day: 20,
   ),
 )
 
@@ -149,7 +149,7 @@ Senior .NET backend engineer with 15+ years in senior\/technical-lead roles and 
 
 #regular-entry(
   [
-    #strong[Senior Software Engineer (Contract)], Various Financial Services Clients (Allen & Overy, Mizuho, Vanquis Bank) -- London, UK
+    #strong[Senior Software Engineer (Contract)], Contract Roles (Allen & Overy, Mizuho, Vanquis Bank) -- London, UK
 
   ],
   [
@@ -157,15 +157,15 @@ Senior .NET backend engineer with 15+ years in senior\/technical-lead roles and 
 
   ],
   main-column-second-row: [
-    #summary[Contract backend engineer delivering critical integration and compliance work for three regulated financial institutions.]
+    #summary[Contract backend engineer delivering integration and compliance projects for three regulated financial institutions.]
 
     
 
-    - At Allen & Overy designed and implemented integration components for a new enterprise Document Management System, using incremental validation to de-risk migration within a complex global infrastructure
+    - Allen & Overy. Designed DMS integration components and incremental validation to de-risk migration
 
-    - At Mizuho led FIX protocol enhancements to achieve full MIFID II compliance for the trading system
+    - Mizuho. Led FIX protocol enhancements to achieve full MIFID II compliance for trading system
 
-    - At Vanquis Bank delivered integration to a new credit-scoring system as part of a major platform renovation
+    - Vanquis Bank. Delivered integration to new credit-scoring system as part of major platform renovation
 
   ],
 )
@@ -290,7 +290,5 @@ Senior .NET backend engineer with 15+ years in senior\/technical-lead roles and 
   [
   ],
   main-column-second-row: [
-    #summary[Equivalent to UK Bachelor’s level via 30+ years senior backend engineering experience in regulated financial and enterprise systems.]
-
   ],
 )
