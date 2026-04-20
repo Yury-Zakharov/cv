@@ -2,6 +2,10 @@
 
 design:
   theme: engineeringclassic
+  page:
+    show_footer: false
+    # show_page_number: false
+    bottom_margin: 0.45in
 
 cv:
   name: Yury Zakharov
@@ -38,17 +42,17 @@ cv:
           - Extended in-house domain-specific language with SQL backend, improving developer productivity and broadening ORM support
           - Formalised Swagger/OpenAPI integration testing, removing ~10% of low-value tests and greatly improving stability and confidence
           - Mentored engineers and ran internal sessions on functional design and system correctness, raising team capability and engineering standards
-      - company: Various Financial Services Clients (Allen & Overy, Mizuho, Vanquis Bank)
+      - company: Contract Roles (Allen & Overy, Mizuho, Vanquis Bank)
         position: Senior Software Engineer (Contract)
         location: London, UK
         start_date: "2018-04-02"
         end_date: "2019-03-01"
         summary: |
-          Contract backend engineer delivering critical integration and compliance work for three regulated financial institutions.
+          Contract backend engineer delivering integration and compliance projects for three regulated financial institutions.
         highlights:
-          - At Allen & Overy designed and implemented integration components for a new enterprise Document Management System, using incremental validation to de-risk migration within a complex global infrastructure
-          - At Mizuho led FIX protocol enhancements to achieve full MIFID II compliance for the trading system
-          - At Vanquis Bank delivered integration to a new credit-scoring system as part of a major platform renovation
+          - Allen & Overy. Designed DMS integration components and incremental validation to de-risk migration
+          - Mizuho. Led FIX protocol enhancements to achieve full MIFID II compliance for trading system
+          - Vanquis Bank. Delivered integration to new credit-scoring system as part of major platform renovation
       - company: "[Gazprom Marketing & Trading](http://www.gazprom-mt.com/)"
         position: Senior Software Developer
         location: London, UK
@@ -113,4 +117,4 @@ cv:
       - institution: Moscow Institute of Chemical Engineering
         location: Russia
         area: Chemical Engineering
-        summary: Equivalent to UK Bachelor’s level via 30+ years senior backend engineering experience in regulated financial and enterprise systems.
+        # summary: Equivalent to UK Bachelor’s level via 30+ years senior backend engineering in regulated systems.
