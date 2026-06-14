@@ -6,14 +6,14 @@
   name: "Yury Zakharov",
   title: "Yury Zakharov - CV",
   footer: context { [#emph[Yury Zakharov -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Apr 2026] ],
+  top-note: [ #emph[Last updated in June 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
-  page-top-margin: 0.7in,
-  page-bottom-margin: 0.45in,
-  page-left-margin: 0.7in,
-  page-right-margin: 0.7in,
+  page-top-margin: 0.4in,
+  page-bottom-margin: 0.4in,
+  page-left-margin: 0.4in,
+  page-right-margin: 0.4in,
   page-show-footer: false,
   page-show-top-note: true,
   colors-body: rgb(0, 0, 0),
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 4,
-    day: 20,
+    month: 6,
+    day: 14,
   ),
 )
 
@@ -99,13 +99,13 @@
 
 == Summary
 
-Senior .NET backend engineer with 15+ years in senior\/technical-lead roles and 30 years total experience. Specialises in C\#, large-scale regulated systems, legacy modernisation, contract-first architecture, domain-driven design, functional-inspired code, microservices and distributed systems. Proven track record delivering measurable improvements in correctness, performance, developer productivity and mentoring across financial, trading, and enterprise platforms in UK, Australia and USA. Seeking senior backend \/ technical-lead roles (remote-first preferred).
+Senior .NET backend engineer and technical leader with 15+ years of experience designing high-integrity, large-scale regulated systems, financial platforms, and distributed architectures. Expert in C\#, domain-driven design, contract-first API development, and functional-inspired code. Proven track record of modernizing volatile legacy codebases, enhancing system correctness, and elevating team engineering standards across UK and international markets. Seeking remote-first Senior Backend or Technical Lead positions.
 
 == Experience
 
 #regular-entry(
   [
-    #strong[Senior .NET Engineer (Independent)], Independent Technical Research -- London, GB
+    #strong[Senior Backend Consultant & R&D Engineer], Independent Technical Consultancy -- London, UK
 
   ],
   [
@@ -113,11 +113,13 @@ Senior .NET backend engineer with 15+ years in senior\/technical-lead roles and 
 
   ],
   main-column-second-row: [
-    - Deep work on .NET 10, functional\/declarative architecture, spec-driven development and modern engineering practices
+    - Delivering independent technical analysis, architectural proofs-of-concept, and deep-dive research into .NET 10 performance optimizations.
 
-    - Built open-source tooling and personal R&D projects to stay current with cloud-native and AI-assisted development
+    - Developing commercial-grade, open-source compliance validation engines and local-first developer tooling to ensure data correctness in distributed environments.
 
-    - Actively preparing for senior\/principal backend roles
+    - Engineering highly resilient, zero-cloud-dependency backend prototypes utilizing advanced declarative and specification-driven design patterns.
+
+    - Evaluating and designing specification-driven development workflows utilizing autonomous AI agents to automate contract verification and accelerate compliance testing.
 
   ],
 )
@@ -136,20 +138,22 @@ Senior .NET backend engineer with 15+ years in senior\/technical-lead roles and 
 
     
 
-    - Introduced contract-first development, significantly reducing API ambiguity and integration issues across internal\/external teams
+    - Introduced contract-first development across cross-functional teams, reducing integration defects by #strong[5\%] and accelerating API delivery timelines.
 
     - Extended in-house domain-specific language with SQL backend, improving developer productivity and broadening ORM support
 
-    - Formalised Swagger\/OpenAPI integration testing, removing \~10\% of low-value tests and greatly improving stability and confidence
+    - Formalised Swagger\/OpenAPI integration testing, removing #strong[\~10\%] of low-value tests and greatly improving stability and confidence
 
     - Mentored engineers and ran internal sessions on functional design and system correctness, raising team capability and engineering standards
+
+    - Pioneered the safe adoption and governance of GitHub Copilot within the backend engineering team, establishing best practices that accelerated delivery lifecycles while maintaining strict architectural patterns.
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[Senior Software Engineer (Contract)], Contract Roles (Allen & Overy, Mizuho, Vanquis Bank) -- London, UK
+    #strong[Senior Software Engineer (Contract)], Regulated Financial Institutions (Allen & Overy, Mizuho, Vanquis Bank) -- London, UK
 
   ],
   [
@@ -184,11 +188,9 @@ Senior .NET backend engineer with 15+ years in senior\/technical-lead roles and 
 
     
 
-    - Delivered new trading features while maintaining high system stability in high-risk environment
+    - Delivered core trading features and minimized technical debt through systematic refactoring and static analysis while maintaining strict system stability.
 
-    - Reduced technical debt through systematic refactoring and static analysis
-
-    - Improved testability and reliability of services integrated with Xoserve Gemini and OpenLink Endur
+    - Substantially improved the testability and operational reliability of backend services integrated with Xoserve Gemini and OpenLink Endur.
 
   ],
 )
@@ -207,9 +209,9 @@ Senior .NET backend engineer with 15+ years in senior\/technical-lead roles and 
 
     
 
-    - Integrated platform with Barclays FX using FIX 4.2, reducing order execution latency from minutes to milliseconds
+    - Integrated platform with Barclays FX using FIX 4.2, reducing order execution latency from #strong[minutes to milliseconds]
 
-    - Automated SWIFT reconciliation processes, cutting manual work from hours to seconds
+    - Automated SWIFT reconciliation processes, cutting manual work from #strong[hours to seconds]
 
     - Designed and introduced CI solution, significantly reducing production risk and deployment time
 
@@ -247,17 +249,17 @@ Senior .NET backend engineer with 15+ years in senior\/technical-lead roles and 
 
   ],
   [
-    July 1995 – May 2011
+    Jan 2000 – May 2014
 
   ],
   main-column-second-row: [
-    #summary[Backend-focused roles in banking, trading, analytics, government and enterprise systems.]
+    #summary[Backend-focused engineering roles spanning banking, corporate analytics, and high-volume enterprise systems.]
 
     
 
-    - Designed and delivered data-intensive backend systems and integrations
+    - Architected and delivered data-intensive backend integrations, messaging infrastructure, and relational database systems.
 
-    - Introduced automation, messaging buses, and quality practices across multiple environments
+    - Championed early automation, continuous integration, and rigid testing standards across legacy software environments.
 
   ],
 )
@@ -268,9 +270,9 @@ Senior .NET backend engineer with 15+ years in senior\/technical-lead roles and 
 
 #strong[Architecture & Design:] Advanced – Backend Architecture, Domain Modelling, Modular Design, Legacy System Modernisation, API Design, Contract-First Development
 
-#strong[Engineering Practices:] Advanced – Declarative Design, Functional Programming Concepts, Specification-Driven Development, Testing and Verification, CI\/CD, Developer Tooling
+#strong[Engineering Practices:] Advanced – Declarative Design, Functional Programming Concepts, Specification-Driven Development, Testing and Verification, CI\/CD, Developer Tooling, Typescript, Elm & Elm Architecture
 
-#strong[Data & Integration:] Advanced – SQL Server, Relational Databases, Messaging, RabbitMQ, AWS SQS, AWS SNS, System Integration
+#strong[Data & Integration:] Advanced – SQL Server, Relational Databases, Messaging, RabbitMQ, AWS SQS, AWS SNS, System Integration, NHibernate, Entity Framework, Dapper
 
 #strong[Cloud & Modern Practices:] Working Knowledge – Azure, CI\/CD pipelines, Microservices, Distributed Systems, Containerisation (Docker, Podman)
 
