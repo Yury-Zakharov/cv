@@ -2,6 +2,7 @@
 
 resume-build/
 resume-print/
+render-output1/
 .direnv
 .direnv/
 .cache
