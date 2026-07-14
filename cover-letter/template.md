@@ -1,14 +1,11 @@
 Dear Hiring Manager,
 
-I am applying for the Senior Backend Software Engineer position. I am a backend-focused engineer with long-term experience designing, modernising, and operating business-critical systems, primarily in the .NET ecosystem.
+I am writing to apply for the Senior C# Software Engineer role at Medical Management Systems. Over the last six years in the UK I have specialised in end-to-end ownership of regulated, high-integrity C# backends, most recently delivering contract-first APIs and functional-style modernisation that reduced integration defects by 5 % and removed ~10 % of low-value tests while mentoring the team on LanguageExt-style and F#-inspired design.
 
-My professional focus is on correctness, clarity, and sustainability of software systems. I favour declarative, deterministic designs, strong domain modelling, and development approaches that make systems easier to reason about, test, and evolve. I have extensive experience working with legacy codebases and regulated environments, where reliability and auditability are as important as delivery speed.
+Your emphasis on a functional paradigm rather than pure OOP, full ownership of features and the codebase, mentoring, and continuous process improvement maps directly to the work I have done at Intelliflo and in my current independent consultancy. I regularly apply LanguageExt and F# concepts inside pragmatic C# codebases, own features from design through to production (including cross-functional collaboration with Product, QA and SRE), and run internal sessions that raise engineering standards. I am fully remote-ready, a long-term UK resident with the right to work, and entirely comfortable with the security vetting and ISO 27001 practices your environment requires.
 
-In recent roles, I have worked on large, business-critical platforms within tightly coordinated multi-team environments. My contributions typically centre on technical leadership rather than people management: setting architectural direction, improving developer productivity and tooling, and addressing systemic issues rather than applying ad-hoc fixes. I am comfortable taking responsibility for complex technical decisions and explaining their trade-offs clearly.
+I would welcome the chance to bring the same ownership, functional correctness and mentoring energy to your healthcare platform. I am available for interview at your convenience and happy to discuss how my recent UK delivery record can support the team.
 
-While most of my career has been in finance-adjacent domains, I do not consider myself domain-bound. I value deep understanding of the problem space, regardless of industry, and I am effective at translating business requirements into precise, verifiable technical solutions. I am particularly interested in roles where design rigour, long-term maintainability, and thoughtful engineering are explicitly valued.
-
-I would welcome the opportunity to discuss how my experience and approach could contribute to your team.
-
-Kind regards,
+Yours sincerely,
 Yury Zakharov
+London | +44 7722850063 | colonelcolt@gmail.com
