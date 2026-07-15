@@ -21,7 +21,7 @@ cv:
       username: uzakharov
   sections:
     summary:
-      - "Senior .NET backend engineer and technical leader with 15+ years of experience designing high-integrity, large-scale regulated systems, financial platforms, and distributed architectures. Expert in C#, domain-driven design, contract-first API development, and functional-inspired code. Proven track record of modernizing volatile legacy codebases, enhancing system correctness, and elevating team engineering standards across UK and international markets. Seeking remote-first Senior Backend or Technical Lead positions."
+      - "Senior backend engineer and technical leader with extensive recent UK experience designing high-integrity, large-scale cloud-native distributed systems and production-grade backend architectures. Expert in C# and other statically typed languages, domain-driven design, contract-first API development, and building clean, scalable, well-tested, maintainable code. Proven track record of modernizing legacy codebases, enhancing system reliability, performance and correctness, and elevating engineering standards and best practices through architecture leadership and cross-functional collaboration. Seeking remote Senior Backend Engineer roles in autonomous, fast-paced environments."
     experience:
       - company: Independent Technical Consultancy
         position: Senior Backend Consultant & R&D Engineer
@@ -29,10 +29,10 @@ cv:
         start_date: "2025-11-01"
         end_date: present
         highlights:
-          - Delivering independent technical analysis, architectural proofs-of-concept, and deep-dive research into .NET 10 performance optimizations.
-          - Developing commercial-grade, open-source compliance validation engines and local-first developer tooling to ensure data correctness in distributed environments.
-          - Engineering highly resilient, zero-cloud-dependency backend prototypes utilizing advanced declarative and specification-driven design patterns.
-          - Evaluating and designing specification-driven development workflows utilizing autonomous AI agents to automate contract verification and accelerate compliance testing.
+          - Designing and developing cloud-native backend architectures and resilient prototypes using advanced declarative and specification-driven patterns for scalable, maintainable production systems.
+          - Building commercial-grade, open-source compliance validation engines and tooling to ensure data correctness, reliability and performance in distributed production environments.
+          - Engineering highly resilient backend solutions with modern architecture principles, supporting continuous improvement of development processes and system operations.
+          - Leading specification-driven workflows and evaluating AI agents for automated contract verification, accelerating compliance testing and engineering best practices in autonomous settings.
       - company: "[Intelliflo Ltd](https://www.intelliflo.com/)"
         position: Senior Software Engineer
         location: Wimbledon, UK
@@ -40,12 +40,12 @@ cv:
         end_date: "2025-10-31"
         summary: |
           UK market leader in financial advice software. Senior backend engineer on regulated, business-critical platform operating across UK, Australia and USA. Collaborative technical leader in 10-person team focused on legacy modernisation, contract clarity, system correctness and developer productivity.
-        highlights:
-          - Introduced contract-first development across cross-functional teams, reducing integration defects by **5%** and accelerating API delivery timelines.
-          - Extended in-house domain-specific language with SQL backend, improving developer productivity and broadening ORM support
-          - Formalised Swagger/OpenAPI integration testing, removing **~10%** of low-value tests and greatly improving stability and confidence
-          - Mentored engineers and ran internal sessions on functional design and system correctness, raising team capability and engineering standards
-          - Pioneered the safe adoption and governance of GitHub Copilot within the backend engineering team, establishing best practices that accelerated delivery lifecycles while maintaining strict architectural patterns.
+          highlights:
+            - Led contract-first API development and architecture across cross-functional product, business and engineering teams, reducing integration defects by **5%** and accelerating delivery of scalable backend services.
+            - Extended domain-specific language with SQL backend integrations, improving developer productivity, system maintainability and support for production-grade code.
+            - Formalised Swagger/OpenAPI integration testing and code review practices, removing **~10%** of low-value tests and greatly improving system stability, performance and confidence.
+            - Mentored engineers and ran internal sessions on system architecture, design and correctness, raising team capability, engineering standards and best practices.
+            - Pioneered safe adoption and governance of AI-assisted tooling (GitHub Copilot) within the backend team, establishing best practices that accelerated delivery while maintaining architectural integrity and code quality in a fast-paced environment.
       - company: Regulated Financial Institutions (Allen & Overy, Mizuho, Vanquis Bank)
         position: Senior Software Engineer (Contract)
         location: London, UK
@@ -100,19 +100,19 @@ cv:
         highlights:
           - Architected and delivered data-intensive backend integrations, messaging infrastructure, and relational database systems.
           - Championed early automation, continuous integration, and rigid testing standards across legacy software environments.
-    technologies:
-      - label: Backend Engineering (.NET)
-        details: Expert – C#, .NET, .NET Core, ASP.NET, ASP.NET Core, Web APIs, REST, OpenAPI, Swagger
-      - label: Architecture & Design
-        details: Advanced – Backend Architecture, Domain Modelling, Modular Design, Legacy System Modernisation, API Design, Contract-First Development
-      - label: Engineering Practices
-        details: Advanced – Declarative Design, Functional Programming Concepts, Specification-Driven Development, Testing and Verification, CI/CD, Developer Tooling, Typescript, Elm & Elm Architecture
-      - label: Data & Integration
-        details: Advanced – SQL Server, Relational Databases, Messaging, RabbitMQ, AWS SQS, AWS SNS, System Integration, NHibernate, Entity Framework, Dapper
-      - label: Cloud & Modern Practices
-        details: Working Knowledge – Azure, CI/CD pipelines, Microservices, Distributed Systems, Containerisation (Docker, Podman)
-      - label: Financial Systems & Protocols
-        details: Working Knowledge – Financial Systems, Trading Systems, FIX Protocol (4.x), SWIFT Messaging, Settlement and Reconciliation, Low-Latency Systems, Regulated Environments
+        technologies:
+          - label: Backend Engineering (C# / F# / Statically Typed Languages)
+            details: Expert – C#, .NET Core, ASP.NET Core, Web APIs, REST, OpenAPI, Swagger; strong proficiency with statically typed and functional-first .NET languages for clean, scalable, well-tested production backend development
+          - label: Architecture & Design
+            details: Advanced – Backend Architecture, Cloud-Native Systems, Domain Modelling, Modular Design, Legacy System Modernisation, API Design, Contract-First Development, Distributed Systems
+          - label: Engineering Practices
+            details: Advanced – Declarative Design, Specification-Driven Development, Testing and Verification, Code Reviews, CI/CD, Developer Tooling, Continuous Improvement, Best Practices, Agile (SAFe), Typescript, Elm & Elm Architecture
+          - label: Data & Integration
+            details: Advanced – SQL Server, Relational Databases, Messaging (RabbitMQ, AWS SQS/SNS), System Integration, NHibernate, Entity Framework, Dapper
+          - label: Cloud & Modern Practices
+            details: Working Knowledge – Azure, Microservices, Distributed Systems, Containerisation (Docker, Podman), CI/CD pipelines
+          - label: Regulated & High-Integrity Systems
+            details: Working Knowledge – Financial/Trading Systems, FIX/SWIFT Protocols, Compliance, Information Security best practices, Regulated Environments, Low-Latency Systems
     awards:
       - label: Certified SAFe® 6 Scrum Master
         details: Scaled Agile
