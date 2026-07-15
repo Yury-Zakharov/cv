@@ -100,19 +100,19 @@ cv:
         highlights:
           - Architected and delivered data-intensive backend integrations, messaging infrastructure, and relational database systems.
           - Championed early automation, continuous integration, and rigid testing standards across legacy software environments.
-        technologies:
-          - label: Backend Engineering (C# / F# / Statically Typed Languages)
-            details: Expert – C#, .NET Core, ASP.NET Core, Web APIs, REST, OpenAPI, Swagger; strong proficiency with statically typed and functional-first .NET languages for clean, scalable, well-tested production backend development
-          - label: Architecture & Design
-            details: Advanced – Backend Architecture, Cloud-Native Systems, Domain Modelling, Modular Design, Legacy System Modernisation, API Design, Contract-First Development, Distributed Systems
-          - label: Engineering Practices
-            details: Advanced – Declarative Design, Specification-Driven Development, Testing and Verification, Code Reviews, CI/CD, Developer Tooling, Continuous Improvement, Best Practices, Agile (SAFe), Typescript, Elm & Elm Architecture
-          - label: Data & Integration
-            details: Advanced – SQL Server, Relational Databases, Messaging (RabbitMQ, AWS SQS/SNS), System Integration, NHibernate, Entity Framework, Dapper
-          - label: Cloud & Modern Practices
-            details: Working Knowledge – Azure, Microservices, Distributed Systems, Containerisation (Docker, Podman), CI/CD pipelines
-          - label: Regulated & High-Integrity Systems
-            details: Working Knowledge – Financial/Trading Systems, FIX/SWIFT Protocols, Compliance, Information Security best practices, Regulated Environments, Low-Latency Systems
+    technologies:
+      - label: Backend Engineering (C# / F# / Statically Typed Languages)
+        details: Expert – C#, .NET Core, ASP.NET Core, Web APIs, REST, OpenAPI, Swagger; strong proficiency with statically typed and functional-first .NET languages for clean, scalable, well-tested production backend development
+      - label: Architecture & Design
+        details: Advanced – Backend Architecture, Cloud-Native Systems, Domain Modelling, Modular Design, Legacy System Modernisation, API Design, Contract-First Development, Distributed Systems
+      - label: Engineering Practices
+        details: Advanced – Declarative Design, Specification-Driven Development, Testing and Verification, Code Reviews, CI/CD, Developer Tooling, Continuous Improvement, Best Practices, Agile (SAFe), Typescript, Elm & Elm Architecture
+      - label: Data & Integration
+        details: Advanced – SQL Server, Relational Databases, Messaging (RabbitMQ, AWS SQS/SNS), System Integration, NHibernate, Entity Framework, Dapper
+      - label: Cloud & Modern Practices
+        details: Working Knowledge – Azure, Microservices, Distributed Systems, Containerisation (Docker, Podman), CI/CD pipelines
+      - label: Regulated & High-Integrity Systems
+        details: Working Knowledge – Financial/Trading Systems, FIX/SWIFT Protocols, Compliance, Information Security best practices, Regulated Environments, Low-Latency Systems
     awards:
       - label: Certified SAFe® 6 Scrum Master
         details: Scaled Agile
