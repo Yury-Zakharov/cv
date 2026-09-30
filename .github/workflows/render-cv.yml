@@ -20,6 +20,19 @@ jobs:
 
       - run: nix develop --command rendercv render cv.yaml --output-folder render-output -nopng
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Add additional ATS keywords to PDF
+        run: |
+          pip install --quiet pypdf reportlab
+          python add_additional_keywords.py \
+            render-output/Yury_Zakharov_CV.pdf \
+            additional_keywords.txt \
+            -o render-output/Yury_Zakharov_CV.pdf
+
       - name: Commit rendered files to current branch
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
