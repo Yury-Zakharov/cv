@@ -6,7 +6,7 @@
   name: "Yury Zakharov",
   title: "Yury Zakharov - CV",
   footer: context { [#emph[Yury Zakharov -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in June 2026] ],
+  top-note: [ #emph[Last updated in Sept 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 6,
-    day: 14,
+    month: 9,
+    day: 30,
   ),
 )
 
@@ -99,7 +99,7 @@
 
 == Summary
 
-Senior .NET backend engineer and technical leader with 15+ years of experience designing high-integrity, large-scale regulated systems, financial platforms, and distributed architectures. Expert in C\#, domain-driven design, contract-first API development, and functional-inspired code. Proven track record of modernizing volatile legacy codebases, enhancing system correctness, and elevating team engineering standards across UK and international markets. Seeking remote-first Senior Backend or Technical Lead positions.
+Senior .NET backend engineer and technical leader with 15+ years of experience designing high-integrity, large-scale regulated systems, financial platforms, and distributed architectures. Expert in C\#, domain-driven design, contract-first API development, and specification-driven, AI-assisted engineering. Proven track record of modernizing volatile legacy codebases, enhancing system correctness, and elevating team engineering standards across UK markets. Seeking remote-first Senior Backend or Technical Lead positions.
 
 == Experience
 
@@ -119,7 +119,7 @@ Senior .NET backend engineer and technical leader with 15+ years of experience d
 
     - Engineering highly resilient, zero-cloud-dependency backend prototypes utilizing advanced declarative and specification-driven design patterns.
 
-    - Evaluating and designing specification-driven development workflows utilizing autonomous AI agents to automate contract verification and accelerate compliance testing.
+    - Building specification-driven development workflows with GitHub Spec Kit and OpenCode — multi-agent setups, custom skills, and spec-to-implementation loops for contract checks and backend prototypes.
 
   ],
 )
@@ -146,7 +146,7 @@ Senior .NET backend engineer and technical leader with 15+ years of experience d
 
     - Mentored engineers and ran internal sessions on functional design and system correctness, raising team capability and engineering standards
 
-    - Pioneered the safe adoption and governance of GitHub Copilot within the backend engineering team, establishing best practices that accelerated delivery lifecycles while maintaining strict architectural patterns.
+    - Contributed to the GitHub Copilot adoption group — assembled a shared knowledge base from Confluence, coding standards and internal docs so Copilot had usable context on the regulated codebase.
 
   ],
 )
@@ -277,6 +277,8 @@ Senior .NET backend engineer and technical leader with 15+ years of experience d
 #strong[Cloud & Modern Practices:] Working Knowledge – Azure, CI\/CD pipelines, Microservices, Distributed Systems, Containerisation (Docker, Podman)
 
 #strong[Financial Systems & Protocols:] Working Knowledge – Financial Systems, Trading Systems, FIX Protocol (4.x), SWIFT Messaging, Settlement and Reconciliation, Low-Latency Systems, Regulated Environments
+
+#strong[AI-assisted engineering:] Working Knowledge – GitHub Copilot, Claude Code, Cursor and equivalent agentic tools (OpenCode); GitHub Spec Kit; custom skills and multi-agent workflows; specification-driven development
 
 == Awards
 

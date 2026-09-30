@@ -1,0 +1,20 @@
+# One keyword or short phrase per line.
+# Empty lines and lines starting with # are ignored.
+# These will be appended to extracted PDF text, not shown in the layout.
+
+GitHub Copilot
+Claude Code
+Cursor
+OpenCode
+GitHub Spec Kit
+specification-driven development
+spec-driven development
+AI-assisted development
+AI-assisted engineering
+AI coding assistant
+agentic workflows
+multi-agent
+custom skills
+Github
+git
+Visual Studio

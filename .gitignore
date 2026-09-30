@@ -1,5 +1,8 @@
 # Build artefacts
 
+.venv/
+.venv
+flake.lock
 resume-build/
 resume-print/
 render-output1/
