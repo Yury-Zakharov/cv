@@ -17,6 +17,17 @@ Single source of truth for my professional CV.
    ```bash
    nix develop --command rendercv render cv.yaml --output-folder render-output -nopng
 
+4. Check the additional keywords at the end of the pdf file (not shownon the layout)
+   ```bash
+    python -c "
+    from pypdf import PdfReader
+    r = PdfReader('render-output/Yury_Zakharov_CV.pdf')
+    t = r.pages[-1].extract_text() or ''
+    print(t[-800:])
+    "
+
+
+
 ## GitHub Actions
 
 - Triggers automatically on every push to master
