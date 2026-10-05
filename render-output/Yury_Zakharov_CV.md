@@ -29,7 +29,7 @@ Nov 2025 – present
 
 Mar 2019 – Oct 2025
 
-UK market leader in financial advice software. Senior backend engineer on regulated, multi-tenant business-critical platform operating across UK, Australia and USA. Collaborative technical leader in 10-person team focused on legacy modernisation, contract clarity, system correctness and developer productivity.
+UK market leader in financial advice software. Senior backend engineer on regulated, multi-customer business-critical platform operating across UK, Australia and USA. Collaborative technical leader in 10-person team focused on legacy modernisation, contract clarity, system correctness and developer productivity.
 
 
 
