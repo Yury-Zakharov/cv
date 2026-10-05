@@ -18,3 +18,10 @@ custom skills
 Github
 git
 Visual Studio
+multi-client
+multi-tenant
+integration
+messaging
+asynchronous
+event-driven
+data model

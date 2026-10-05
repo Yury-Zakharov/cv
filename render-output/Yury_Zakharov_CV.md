@@ -29,7 +29,7 @@ Nov 2025 – present
 
 Mar 2019 – Oct 2025
 
-UK market leader in financial advice software. Senior backend engineer on regulated, business-critical platform operating across UK, Australia and USA. Collaborative technical leader in 10-person team focused on legacy modernisation, contract clarity, system correctness and developer productivity.
+UK market leader in financial advice software. Senior backend engineer on regulated, multi-tenant business-critical platform operating across UK, Australia and USA. Collaborative technical leader in 10-person team focused on legacy modernisation, contract clarity, system correctness and developer productivity.
 
 
 
@@ -42,6 +42,8 @@ UK market leader in financial advice software. Senior backend engineer on regula
 - Mentored engineers and ran internal sessions on functional design and system correctness, raising team capability and engineering standards
 
 - Contributed to the GitHub Copilot adoption group — assembled a shared knowledge base from Confluence, coding standards and internal docs so Copilot had usable context on the regulated codebase.
+
+- Built backend services on AWS using SQS, SNS, S3 and Lambda for the regulated advice platform; worked with the DevOps team on EC2 and ECS/EKS rather than owning the account.
 
 
 
@@ -132,7 +134,7 @@ Backend-focused engineering roles spanning banking, corporate analytics, and hig
 
 **Data & Integration:** Advanced – SQL Server, Relational Databases, Messaging, RabbitMQ, AWS SQS, AWS SNS, System Integration, NHibernate, Entity Framework, Dapper
 
-**Cloud & Modern Practices:** Working Knowledge – Azure, CI/CD pipelines, Microservices, Distributed Systems, Containerisation (Docker, Podman)
+**Cloud & Modern Practices:** Working Knowledge – AWS (SQS, SNS, S3, Lambda; EC2 and ECS/EKS with the DevOps team), Azure, CI/CD pipelines, Microservices, Distributed Systems, Containerisation (Docker, Podman)
 
 **Financial Systems & Protocols:** Working Knowledge – Financial Systems, Trading Systems, FIX Protocol (4.x), SWIFT Messaging, Settlement and Reconciliation, Low-Latency Systems, Regulated Environments
 
