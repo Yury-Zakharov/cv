@@ -109,7 +109,7 @@ Global risk management and financial services consultancy. Senior developer on l
 
 ## **Software Engineer / Senior Engineer**, Earlier Career (Various) -- UK & Russia
 
-May 2014
+Until May 2014
 
 Backend-focused engineering roles spanning banking, corporate analytics, and high-volume enterprise systems.
 

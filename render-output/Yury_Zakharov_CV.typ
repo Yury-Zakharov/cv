@@ -247,7 +247,7 @@ Senior .NET backend engineer and technical leader with 15+ years of experience d
 
   ],
   [
-    May 2014
+    Until May 2014
 
   ],
   main-column-second-row: [
