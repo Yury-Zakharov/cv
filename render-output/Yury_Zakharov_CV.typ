@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 10,
-    day: 5,
+    day: 9,
   ),
 )
 
@@ -99,7 +99,7 @@
 
 == Summary
 
-Senior .NET backend engineer and technical leader with 15+ years of experience designing high-integrity, large-scale regulated systems, financial platforms, and distributed architectures. Expert in C\#, domain-driven design, contract-first API development, and specification-driven, AI-assisted engineering. Proven track record of modernizing volatile legacy codebases, enhancing system correctness, and elevating team engineering standards across UK markets. Seeking remote-first Senior Backend or Technical Lead positions.
+Senior .NET backend engineer and technical leader with 15+ years of experience designing high-integrity, large-scale regulated systems, financial platforms, and distributed architectures. Expert in C\#, domain-driven design, contract-first API development, and specification-driven, AI-assisted engineering. Proven track record of modernizing volatile legacy codebases, enhancing system correctness, and elevating team engineering standards across UK markets. Seeking remote or hybrid Senior Backend or Technical Lead positions.
 
 == Experience
 
@@ -115,9 +115,7 @@ Senior .NET backend engineer and technical leader with 15+ years of experience d
   main-column-second-row: [
     - Delivering independent technical analysis, architectural proofs-of-concept, and deep-dive research into .NET 10 performance optimizations.
 
-    - Developing commercial-grade, open-source compliance validation engines and local-first developer tooling to ensure data correctness in distributed environments.
-
-    - Engineering highly resilient, zero-cloud-dependency backend prototypes utilizing advanced declarative and specification-driven design patterns.
+    - Built the first backend for an early-stage legal-technology startup serving solicitors and barristers; development was later suspended when the company could not raise further funding.
 
     - Building specification-driven development workflows with GitHub Spec Kit and OpenCode — multi-agent setups, custom skills, and spec-to-implementation loops for contract checks and backend prototypes.
 
