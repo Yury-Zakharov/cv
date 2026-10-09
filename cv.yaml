@@ -29,9 +29,8 @@ cv:
         start_date: "2025-11-01"
         end_date: present
         highlights:
-          - Delivering independent technical analysis, architectural proofs-of-concept, and deep-dive research into .NET 10 performance optimizations.
           - Built the first backend for an early-stage legal-technology startup serving solicitors and barristers; development was later suspended when the company could not raise further funding.
-          - Building specification-driven development workflows with GitHub Spec Kit and OpenCode — multi-agent setups, custom skills, and spec-to-implementation loops for contract checks and backend prototypes.
+          - Delivering independent technical analysis, architectural proofs-of-concept, and deep-dive research into .NET 10 performance optimizations.
       - company: "[Intelliflo Ltd](https://www.intelliflo.com/)"
         position: Senior Software Engineer
         location: Wimbledon, UK
@@ -40,7 +39,7 @@ cv:
         summary: |
           UK market leader in financial advice software. Senior backend engineer on regulated, multi-customer business-critical platform operating across UK, Australia and USA. Collaborative technical leader in 10-person team focused on legacy modernisation, contract clarity, system correctness and developer productivity.
         highlights:
-          - Introduced contract-first development across cross-functional teams, reducing integration defects by **5%** and accelerating API delivery timelines.
+          - Introduced contract-first development across cross-functional teams, reducing integration defects by **~5%** and accelerating API delivery timelines.
           - Extended in-house domain-specific language with SQL backend, improving developer productivity and broadening ORM support
           - Formalised Swagger/OpenAPI integration testing, removing **~10%** of low-value tests and greatly improving stability and confidence
           - Mentored engineers and ran internal sessions on functional design and system correctness, raising team capability and engineering standards
@@ -93,7 +92,6 @@ cv:
       - company: Earlier Career (Various)
         position: Software Engineer / Senior Engineer
         location: UK & Russia
-        start_date: "2000-01-01"
         end_date: "2014-05-01"
         summary: |
           Backend-focused engineering roles spanning banking, corporate analytics, and high-volume enterprise systems.
