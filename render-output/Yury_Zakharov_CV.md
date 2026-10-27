@@ -25,9 +25,11 @@ Nov 2025 – present
 
 Mar 2019 – Oct 2025
 
-UK market leader in financial advice software. Senior backend engineer on regulated, multi-customer business-critical platform operating across UK, Australia and USA. Collaborative technical leader in 10-person team focused on legacy modernisation, contract clarity, system correctness and developer productivity.
+UK market leader in financial advice software. Senior backend engineer on regulated, multi-customer business-critical platform operating across UK, Australia and USA. Collaborative technical leader in 10-person team focused on legacy modernisation, contract clarity, system correctness and developer productivity. Built and modernised C# / .NET (Framework and Core) services, APIs and integrations for the regulated financial advice platform.
 
 
+
+- Developed and modernised backend services in C# / .NET (Framework and Core) for the regulated multi-market financial advice platform, including APIs, contract-first development and AWS integrations.
 
 - Introduced contract-first development across cross-functional teams, reducing integration defects by **~5%** and accelerating API delivery timelines.
 
@@ -47,13 +49,13 @@ UK market leader in financial advice software. Senior backend engineer on regula
 
 Apr 2018 – Mar 2019
 
-Contract backend engineer delivering integration and compliance projects for three regulated financial institutions.
+Contract backend engineer delivering C# / .NET integration and compliance projects for three regulated financial institutions.
 
 
 
 - Allen & Overy. Designed DMS integration components and incremental validation to de-risk migration
 
-- Mizuho. Led FIX protocol enhancements to achieve full MIFID II compliance for trading system
+- Mizuho. Led C# / .NET FIX protocol enhancements to achieve full MIFID II compliance for trading system
 
 - Vanquis Bank. Delivered integration to new credit-scoring system as part of major platform renovation
 
@@ -77,7 +79,7 @@ International energy trading organisation. Senior backend developer maintaining 
 
 Sept 2015 – Oct 2017
 
-Financial services company specialising in FX products. Backend and integration developer on client-facing online FX trading platform.
+Financial services company specialising in FX products. C# / .NET backend and integration developer on client-facing online FX trading platform.
 
 
 
@@ -95,7 +97,7 @@ Financial services company specialising in FX products. Backend and integration 
 
 May 2014 – Sept 2015
 
-Global risk management and financial services consultancy. Senior developer on large modular enterprise financial platform.
+Global risk management and financial services consultancy. Senior .NET / C# developer on large modular enterprise financial platform.
 
 
 

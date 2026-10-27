@@ -37,8 +37,9 @@ cv:
         start_date: "2019-03-05"
         end_date: "2025-10-31"
         summary: |
-          UK market leader in financial advice software. Senior backend engineer on regulated, multi-customer business-critical platform operating across UK, Australia and USA. Collaborative technical leader in 10-person team focused on legacy modernisation, contract clarity, system correctness and developer productivity.
+          UK market leader in financial advice software. Senior backend engineer on regulated, multi-customer business-critical platform operating across UK, Australia and USA. Collaborative technical leader in 10-person team focused on legacy modernisation, contract clarity, system correctness and developer productivity. Built and modernised C# / .NET (Framework and Core) services, APIs and integrations for the regulated financial advice platform.
         highlights:
+          - Developed and modernised backend services in C# / .NET (Framework and Core) for the regulated multi-market financial advice platform, including APIs, contract-first development and AWS integrations.
           - Introduced contract-first development across cross-functional teams, reducing integration defects by **~5%** and accelerating API delivery timelines.
           - Extended in-house domain-specific language with SQL backend, improving developer productivity and broadening ORM support
           - Formalised Swagger/OpenAPI integration testing, removing **~10%** of low-value tests and greatly improving stability and confidence
@@ -51,10 +52,10 @@ cv:
         start_date: "2018-04-02"
         end_date: "2019-03-01"
         summary: |
-          Contract backend engineer delivering integration and compliance projects for three regulated financial institutions.
+          Contract backend engineer delivering C# / .NET integration and compliance projects for three regulated financial institutions.
         highlights:
           - Allen & Overy. Designed DMS integration components and incremental validation to de-risk migration
-          - Mizuho. Led FIX protocol enhancements to achieve full MIFID II compliance for trading system
+          - Mizuho. Led C# / .NET FIX protocol enhancements to achieve full MIFID II compliance for trading system
           - Vanquis Bank. Delivered integration to new credit-scoring system as part of major platform renovation
       - company: "[Gazprom Marketing & Trading](http://www.gazprom-mt.com/)"
         position: Senior Software Developer
@@ -72,7 +73,7 @@ cv:
         start_date: "2015-09-02"
         end_date: "2017-10-01"
         summary: |
-          Financial services company specialising in FX products. Backend and integration developer on client-facing online FX trading platform.
+          Financial services company specialising in FX products. C# / .NET backend and integration developer on client-facing online FX trading platform.
         highlights:
           - Integrated platform with Barclays FX using FIX 4.2, reducing order execution latency from **minutes to milliseconds**
           - Automated SWIFT reconciliation processes, cutting manual work from **hours to seconds**
@@ -84,7 +85,7 @@ cv:
         start_date: "2014-05-02"
         end_date: "2015-09-01"
         summary: |
-          Global risk management and financial services consultancy. Senior developer on large modular enterprise financial platform.
+          Global risk management and financial services consultancy. Senior .NET / C# developer on large modular enterprise financial platform.
         highlights:
           - Contributed to architecture and development of modular platform integrating multiple internal products
           - Maintained high automated test coverage and promoted coding standards

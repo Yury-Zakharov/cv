@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 10,
-    day: 9,
+    day: 27,
   ),
 )
 
@@ -130,9 +130,11 @@ Senior .NET backend engineer and technical leader with 15+ years of experience d
 
   ],
   main-column-second-row: [
-    #summary[UK market leader in financial advice software. Senior backend engineer on regulated, multi-customer business-critical platform operating across UK, Australia and USA. Collaborative technical leader in 10-person team focused on legacy modernisation, contract clarity, system correctness and developer productivity.]
+    #summary[UK market leader in financial advice software. Senior backend engineer on regulated, multi-customer business-critical platform operating across UK, Australia and USA. Collaborative technical leader in 10-person team focused on legacy modernisation, contract clarity, system correctness and developer productivity. Built and modernised C\# \/ .NET (Framework and Core) services, APIs and integrations for the regulated financial advice platform.]
 
     
+
+    - Developed and modernised backend services in C\# \/ .NET (Framework and Core) for the regulated multi-market financial advice platform, including APIs, contract-first development and AWS integrations.
 
     - Introduced contract-first development across cross-functional teams, reducing integration defects by #strong[\~5\%] and accelerating API delivery timelines.
 
@@ -159,13 +161,13 @@ Senior .NET backend engineer and technical leader with 15+ years of experience d
 
   ],
   main-column-second-row: [
-    #summary[Contract backend engineer delivering integration and compliance projects for three regulated financial institutions.]
+    #summary[Contract backend engineer delivering C\# \/ .NET integration and compliance projects for three regulated financial institutions.]
 
     
 
     - Allen & Overy. Designed DMS integration components and incremental validation to de-risk migration
 
-    - Mizuho. Led FIX protocol enhancements to achieve full MIFID II compliance for trading system
+    - Mizuho. Led C\# \/ .NET FIX protocol enhancements to achieve full MIFID II compliance for trading system
 
     - Vanquis Bank. Delivered integration to new credit-scoring system as part of major platform renovation
 
@@ -203,7 +205,7 @@ Senior .NET backend engineer and technical leader with 15+ years of experience d
 
   ],
   main-column-second-row: [
-    #summary[Financial services company specialising in FX products. Backend and integration developer on client-facing online FX trading platform.]
+    #summary[Financial services company specialising in FX products. C\# \/ .NET backend and integration developer on client-facing online FX trading platform.]
 
     
 
@@ -228,7 +230,7 @@ Senior .NET backend engineer and technical leader with 15+ years of experience d
 
   ],
   main-column-second-row: [
-    #summary[Global risk management and financial services consultancy. Senior developer on large modular enterprise financial platform.]
+    #summary[Global risk management and financial services consultancy. Senior .NET \/ C\# developer on large modular enterprise financial platform.]
 
     
 
